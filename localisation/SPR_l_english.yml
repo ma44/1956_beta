@@ -87,6 +87,15 @@
  SPR_the_black_years:0 "The Black Years"
  SPR_the_black_years_desc:0 "While the Republic is still fresh in the minds of the Spanish, it sees its foundations becoming more and more fragile as more and more protests appear since the strike of the miners of Asturias in 1934. The right is becoming more radical day by day with the CEDA seeing less and less well the democratic system and the Falangists continuing to gain in popularity, leading to confrontations with socialists, anarchists and communists often culminating in political assassinations."
 
+ SPA_spanish_austrian_diplomatic_unity:0 "Spanish-Austrian Diplomatic Unity"
+ SPA_spanish_austrian_diplomatic_unity_desc:0 "While the crowns of Austria and of Spain are not tied dynatically since the beginning of the 18th century, the threats of the modern world clearly emphasize the need for a strong alliance of the monarchs of Europe."
+
+ SPA_alliance_with_the_kaiserreich:0 "Alliance with the Kaiserreich"
+ SPA_alliance_with_the_kaiserreich_desc:0 "The return of the Hohenzollern to the German throne offers the opportunity to join their alliance in order to defend the divine right to rule." 
+ 
+ SPA_carlist_diplomacy:0 "Carlist Diplomacy"
+ SPA_carlist_diplomacy_desc:0 "We must find allies in this ever changing world, so we can stand firm on our throne." 
+
 # Companies
 altos_hornos:0 "Altos Hornos de Vizcaya"
 telefonica:0 "Telefónica"
