@@ -1,4 +1,7 @@
 banana_decisions = { 
+
+	icon = gre_investment_decisions
+
 	allowed = {
 		always = yes
 	}
@@ -14,7 +17,7 @@ honpuppet_decisions = {
 	}
 
 	visible = {
-		original_tag = RAJ
+		original_tag = HON
 		has_government = fascism
 	}
 }
@@ -31,6 +34,7 @@ honpeace_decisions = {
 }
 
 honlib_decisions = { 
+	icon = sov_great_patriotic_war
 	allowed = {
 		always = yes
 	}
@@ -42,6 +46,7 @@ honlib_decisions = {
 }
 
 honspanishempire_decisions = { 
+	icon = spr_reassert_american_dominance
 	allowed = {
 		always = yes
 	}
