@@ -128,7 +128,10 @@ recruit_character = AST_lance_sharkey
 recruit_character = AST_herbert_v_evatt
 recruit_character = AST_generic_fascist_demagogue
 recruit_character = AST_arthur_calwell
-
+recruit_character = AST_joseph_lyons
+recruit_character = AST_jack_miles
+recruit_character = AST_isaac_isaacs
+recruit_character = AST_hector_waller
 
 if = {
 	limit = {
