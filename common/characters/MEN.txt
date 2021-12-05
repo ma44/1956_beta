@@ -1,0 +1,118 @@
+characters={
+	MEN_prince_demchugdongrub={
+		name="Prince Demchugdongrub"
+		portraits={
+			civilian={
+				large="GFX_portrait_men_demchugdongrub"
+			}
+		}
+		country_leader={
+			desc="POLITICS_DEMCHUGDONGRUB_DESC"
+			ideology=despotism
+			traits={ spirit_of_genghis }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	MEN_li_shouxin={
+		name="Li Shouxin"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/MEN/r56_portrait_MEN_Li_Shouxin.dds"
+			}
+		}
+		field_marshal={
+			traits={ cavalry_officer organizer }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	MEN_altanochir={
+		name="Altanochir"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_asia_generic_land_4.dds"
+			}
+			army={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
+			}
+		}
+		corps_commander={
+			traits={ cavalry_officer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	MEN_wang_ying={
+		name="Wang Ying"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_asia_generic_land_2.dds"
+			}
+			army={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+			}
+		}
+		corps_commander={
+			traits={ cavalry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	MEN_tong_xiangying={
+		name="Tong Xiangying"
+		portraits={
+			civilian={
+				large="gfx/leaders/r56_generic/r56_portrait_generic_politician_asia_2_democracy.dds"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1953.1.1.12"
+			id=-1
+		}
+	}
+	MEN_oboi_kangan={
+		name="Oboi Kang'an"
+		portraits={
+			civilian={
+				large="gfx/leaders/JAP/Portrait_Japan_Generic_1.dds"
+			}
+		}
+		country_leader={
+			ideology=anti_revisionism
+			traits={ compassionate_commoner fortification_engineer }
+			expire="1947.1.1.12"
+			id=-1
+		}
+	}
+	MEN_deng_shangzhi={
+		name="Deng Shangzhi"
+		portraits={
+			civilian={
+				large="GFX_portrait_asia_generic_4"
+			}
+		}
+		country_leader={
+			ideology=nazism
+			traits={ editor silent_mule }
+			expire="1956.1.1.12"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,96 @@
+characters={
+	XSM_ma_bufang={
+		name="Ma Bufang"
+		portraits={
+			civilian={
+				large="GFX_portrait_xsm_ma_bufang"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={ warlords }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	XSM_ma_hongbin={
+		name="Ma Hongbin"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/XSM/r56_portrait_XSM_Ma_Hongbin.dds"
+			}
+		}
+		corps_commander={
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	XSM_ma_hongkui={
+		name="Ma Hongkui"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/XSM/r56_portrait_XSM_Ma_Hongkui.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	XSM_liao_wei={
+		name="Liao Wei"
+		portraits={
+			civilian={
+				large="gfx/leaders/r56_generic/r56_portrait_generic_politician_asia_1_democracy.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			traits={ quartermaster_general ideological_crusader }
+			expire="1951.1.1.12"
+			id=-1
+		}
+	}
+	XSM_ma_ye={
+		name="Ma Ye"
+		portraits={
+			civilian={
+				large="GFX_portrait_asia_generic_4"
+			}
+		}
+		country_leader={
+			ideology=stalinism
+			traits={ compassionate_commoner tenacious_negotiator }
+			expire="1950.1.1.12"
+			id=-1
+		}
+	}
+	XSM_xie_jiang={
+		name="Xie Jiang"
+		portraits={
+			civilian={
+				large="gfx/leaders/JAP/Portrait_Japan_Generic_3.dds"
+			}
+		}
+		country_leader={
+			ideology=nazism
+			traits={ silent_workhorse_old_guard }
+			expire="1949.1.1.12"
+			id=-1
+		}
+	}
+}

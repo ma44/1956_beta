@@ -1,0 +1,132 @@
+characters={
+	MAL_shenton_thomas={
+		name="Shenton Thomas"
+		portraits={
+			civilian={
+				large="GFX_portrait_malaya_shenton_thomas"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1953.3.1.1"
+			id=-1
+		}
+	}
+	MAL_ibrahim_hj_yaacob={
+		name="Ibrahim Hj Yaacob"
+		portraits={
+			civilian={
+				large="gfx/leaders/MAL/Portrait_Ibrahim_Yaacob.dds"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1953.3.1.1"
+			id=-1
+		}
+	}
+	MAL_tunku_abdul_rahman={
+		name="Tunku Abdul Rahman"
+		portraits={
+			civilian={
+				large="gfx/leaders/MAL/Portrait_Tunku_Abdul_Rahman.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1953.3.1.1"
+			id=-1
+		}
+	}
+	MAL_chin_peng={
+		name="Chin Peng"
+		portraits={
+			civilian={
+				large="gfx/leaders/MAL/Portrait_Chin_Peng.dds"
+			}
+		}
+		country_leader={
+			ideology=marxism
+			expire="1953.3.1.1"
+			id=-1
+		}
+	}
+	MAL_adnan_saidi={
+		name="Adnan Saidi"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/MAL/Portrait_Adnan_Saidi.dds"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer guerilla_fighter }
+			skill=4
+			attack_skill=4
+			defense_skill=6
+			planning_skill=3
+			logistics_skill=4
+			legacy_id=1213
+		}
+	}
+	MAL_yeop_mahadin_shariff={
+		name="Yeop Mahadin Shariff"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/MAL/Portrait_Yeop_Mahidin_Shariff.dds"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=3
+			legacy_id=1214
+		}
+	}
+	MAL_tom_phillips={
+		name="Tom Phillips"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/MAL/Portrait_Tom_Phillips.dds"
+			}
+		}
+		navy_leader={
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=1121
+		}
+	}
+	MAL_william_tennant={
+		name="William Tennant"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/MAL/Portrait_William_tennant.dds"
+			}
+		}
+		navy_leader={
+			skill=3
+			attack_skill=2
+			defense_skill=4
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=1122
+		}
+	}
+}

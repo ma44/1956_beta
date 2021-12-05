@@ -1,0 +1,119 @@
+characters={
+	CUB_josé_agripino_barnet={
+		name="José Agripino Barnet"
+		portraits={
+			civilian={
+				large="GFX_portrait_cuba_jose_barnet"
+			}
+		}
+		country_leader={
+			desc="POLITICS_JOSE_AGRIPINO_BARNET_DESC"
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	CUB_fulgencio_batista={
+		name="Fulgencio Batista"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/CUB/Portrait_Cuba_Fulgencio_Batista.dds"
+			}
+		}
+		corps_commander={
+			traits={ urban_assault_specialist fortress_buster }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=6006
+		}
+	}
+	CUB_genovevo_perez_damera={
+		name="Genovevo Perez Damera"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/CUB/Portrait_Cuba_Genovevo_Perez_Damera.dds"
+			}
+		}
+		field_marshal={
+			traits={ decided_planner }
+			skill=2
+			attack_skill=2
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	CUB_blas_roca_calderio={
+		name="Blas Roca Calderio"
+		portraits={
+			civilian={
+				large="GFX_Portrait_Cuba_Blas_Roca_Calderio"
+			}
+		}
+		country_leader={
+			desc="POLITICS_JOSEPH_JACQUEMOTTE_DESC"
+			ideology=stalinism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	CUB_alfonso_serrano_villarino={
+		name="Alfonso Serrano Villarino"
+		portraits={
+			civilian={
+				large="gfx/leaders/CUB/r56_portrait_CUB_Alfonso_Serrano_Villarino.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_JOSEPH_JACQUEMOTTE_DESC"
+			ideology=falangism
+			traits={ r56_trait_opposed_to_communism propaganda_bungler }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	CUB_francisco_tabernilla={
+		name="Francisco Tabernilla"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_europe_generic_land_6.dds"
+			}
+			army={
+				large="gfx/leaders/Europe/Portrait_europe_generic_land_6.dds"
+			}
+		}
+		corps_commander={
+			traits={ urban_assault_specialist fortress_buster }
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	CUB_ambrosio_trujillo={
+		name="Ambrosio Trujillo"
+		portraits={
+			civilian={
+				large="GFX_portrait_south_america_generic_8"
+			}
+		}
+		country_leader={
+			ideology=centrism
+			traits={ tenacious_negotiator }
+			expire="1951.1.1.12"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,338 @@
+characters={
+	SWE_per_albin_hansson={
+		name="Per Albin Hansson"
+		portraits={
+			civilian={
+				large="gfx/leaders/SWE/Portrait_Sweden_Per_Albin_Hansson.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_PER_ALBIN_HANSSON_DESC"
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	SWE_sven_olov_lindholm={
+		name="Sven Olov Lindholm"
+		portraits={
+			civilian={
+				large="gfx/leaders/SWE/r56_portrait_SWE_Sven_Olov_Lindholm.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_SVEN_OLOV_LINDHOLM_DESC"
+			ideology=nazism
+			traits={ anti_communist POL_pro_german_realist }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	SWE_sven_linderot={
+		name="Sven Linderot"
+		portraits={
+			civilian={
+				large="gfx/leaders/SWE/r56_portrait_SWE_Sven_Linderot.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_SVEN_LINDEROT_DESC"
+			ideology=marxism
+			traits={ r56_trait_anti_fascist POL_Heavy_Industry_Emphasis }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	SWE_axel_pehrssonbramstorp={
+		name="Axel Pehrsson-Bramstorp"
+		portraits={
+			civilian={
+				large="gfx/leaders/SWE/r56_portrait_SWE_Per_Albin_Hansson.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_AXEL_PEHRSSON_BRAMSTORP_DESC"
+			ideology=centrism
+			traits={ r56_trait_opposed_to_communism }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	SWE_erik_af_edholm={
+		name="Erik af Edholm"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/SWE/r56_portrait_SWE_Erik_Edholm.dds"
+			}
+		}
+		corps_commander={
+			traits={ hill_fighter }
+			skill=4
+			attack_skill=4
+			defense_skill=1
+			planning_skill=4
+			logistics_skill=4
+			legacy_id=-1
+		}
+	}
+	SWE_helge_jung={
+		name="Helge Jung"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/SWE/r56_portrait_SWE_Helge_Jung.dds"
+			}
+		}
+		corps_commander={
+			traits={ career_officer infantry_officer }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	SWE_ivar_holmquist={
+		name="Ivar Holmquist"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/SWE/r56_portrait_SWE_Ivar_Holmquist.dds"
+			}
+		}
+		corps_commander={
+			traits={ artillerist ranger }
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	SWE_fabian_tamm={
+		name="Fabian Tamm"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/SWE/r56_portrait_SWE_Fabian_Tamm.dds"
+			}
+		}
+		navy_leader={
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	SWE_charles_de_champs={
+		name="Charles de Champs"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/SWE/r56_portrait_SWE_Charles_de_Champs.dds"
+			}
+		}
+		navy_leader={
+			traits={ superior_tactician spotter }
+			skill=4
+			attack_skill=3
+			defense_skill=4
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	SWE_gunnar_bjurner={
+		name="Gunnar Bjurner"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/SWE/r56_portrait_SWE_Gunnar_Bjurner.dds"
+			}
+		}
+		navy_leader={
+			traits={ ironside }
+			skill=4
+			attack_skill=4
+			defense_skill=3
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	SWE_thord_bonde={
+		name="Thord Bonde"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/SWE/r56_portrait_SWE_Thord_Bonde.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	SWE_viking_tamm={
+		name="Viking Tamm"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/SWE/r56_portrait_SWE_Viking_Tamm.dds"
+			}
+		}
+		corps_commander={
+			traits={ winter_specialist }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	SWE_olof_lustmördaren_thörnell={
+		name="Olof 'Lustmördaren' Thörnell"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/SWE/r56_portrait_SWE_Olof_Thornell.dds"
+			}
+		}
+		field_marshal={
+			traits={ trait_cautious organizer }
+			skill=4
+			attack_skill=3
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	SWE_ernst_linder={
+		name="Ernst Linder"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/SWE/r56_portrait_SWE_Ernst_Linder.dds"
+			}
+		}
+		corps_commander={
+			traits={ winter_specialist }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	SWE_folke_högberg={
+		name="Folke Högberg"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/SWE/r56_portrait_SWE_Folke_Hogberg.dds"
+			}
+		}
+		corps_commander={
+			traits={ commando }
+			skill=3
+			attack_skill=1
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	SWE_folke_bernadotte={
+		name="Folke Bernadotte"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/SWE/r56_portrait_SWE_Folke_Bernadotte.dds"
+			}
+		}
+		corps_commander={
+			traits={ media_personality politically_connected }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	SWE_gösta_ehrensvärd={
+		name="Gösta Ehrensvärd"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/SWE/r56_portrait_SWE_Gosta_Ehrensvard.dds"
+			}
+		}
+		navy_leader={
+			skill=3
+			attack_skill=1
+			defense_skill=3
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	SWE_helge_strömbäck={
+		name="Helge Strömbäck"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/SWE/r56_portrait_SWE_Helge_Stromback.dds"
+			}
+		}
+		navy_leader={
+			traits={ blockade_runner }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+}

@@ -1,0 +1,160 @@
+characters={
+	COL_alfonso_lópez_pumarejo={
+		name="Alfonso López Pumarejo"
+		portraits={
+			civilian={
+				large="GFX_Portrait_columbia_alfonso_lopez"
+			}
+		}
+		country_leader={
+			desc="POLITICS_ALFONSO_LOPEZ_PUMAREJO_DESC"
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	COL_mariano_ospina_pérez={
+		name="Mariano Ospina Pérez"
+		portraits={
+			civilian={
+				large="gfx/leaders/COL/r56_portrait_COL_Mariano_Ospina_Perez.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_MARIANO_OSPINA_PEREZ_DESC"
+			ideology=centrism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	COL_gustavo_rojas_pinilla={
+		name="Gustavo Rojas Pinilla"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/COL/kr_portrait_Columbia_Rojas_Pinilla.dds"
+			}
+		}
+		field_marshal={
+			traits={ career_officer politically_connected }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	COL_jorge_eliecer_gaitán_ayala={
+		name="Jorge Eliecer Gaitán Ayala"
+		portraits={
+			civilian={
+				large="gfx/leaders/COL/r56_portrait_COL_Jorge_Gaitan.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_ALFONSO_LOPEZ_PUMAREJO_DESC"
+			ideology=marxism
+			traits={ r56_trait_anti_fascist POL_Heavy_Industry_Emphasis }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	COL_laureano_gomez={
+		name="Laureano Gomez"
+		portraits={
+			civilian={
+				large="gfx/leaders/COL/r56_portrait_COL_Laureano_Gomez.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_ALFONSO_LOPEZ_PUMAREJO_DESC"
+			ideology=rexism
+			traits={ editor }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	COL_gabriel_parís_gordillo={
+		name="Gabriel París Gordillo"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/COL/r56_portrait_COL_Gustavo_Rojas.dds"
+			}
+		}
+		corps_commander={
+			traits={ politically_connected trickster urban_assault_specialist }
+			skill=3
+			attack_skill=3
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	COL_carlos_cortés_vargas={
+		name="Carlos Cortés Vargas"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/COL/kr_portrait_col_generic_land_standin_1.dds"
+			}
+		}
+		corps_commander={
+			traits={ career_officer war_hero jungle_rat }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	COL_efrain_rojas_acevedo={
+		name="Efrain Rojas Acevedo"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/COL/kr_portrait_col_generic_land_standin_2.dds"
+			}
+		}
+		corps_commander={
+			traits={ harsh_leader decided_planner commando }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	COL_federico_diago_díaz={
+		name="Federico Diago Díaz"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/COL/kr_portrait_col_generic_navy_standin_1.dds"
+			}
+		}
+		navy_leader={
+			traits={ navy_career_officer fleet_protector }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+}

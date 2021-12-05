@@ -1,0 +1,408 @@
+characters={
+	YUG_prince_paul={
+		name="Prince Paul"
+		portraits={
+			civilian={
+				large="gfx/leaders/YUG/Portrait_Yugoslavia_Prince_Paul.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_PRINCE_PAUL_DESC"
+			ideology=despotism
+			traits={ r56_trait_opposed_to_communism }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	YUG_josip_broz_tito={
+		name="Josip Broz Tito"
+		portraits={
+			civilian={
+				large="gfx/leaders/YUG/r56_portrait_YUG_Josip_Broz_Tito.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_JOSIP_BROZ_TITO_DESC"
+			ideology=leninism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	YUG_milan_nedic={
+		name="Milan Nedic"
+		portraits={
+			civilian={
+				large="gfx/leaders/SER/r56_Portrait_Milan_Nedic.dds"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			traits={ fascist_militia_leader }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	YUG_julijan_luterotti={
+		name="Julijan Luterotti"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/r56_generic/r56_portrait_generic_admiral_europe_1.dds"
+			}
+		}
+		navy_leader={
+			traits={ blockade_runner }
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	YUG_ivan_kern={
+		name="Ivan Kern"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_europe_generic_navy_2.dds"
+			}
+			army={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
+			}
+		}
+		navy_leader={
+			traits={ bold blockade_runner }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	YUG_milan_stojadinović={
+		name="Milan Stojadinović"
+		portraits={
+			civilian={
+				large="gfx/leaders/YUG/Portrait_Yugoslavia_Milan_Stojadinovic.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_PRINCE_PAUL_DESC"
+			ideology=despotism
+			traits={ financial_expert r56_trait_opposed_to_communism }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	YUG_dimitrije_ljotić={
+		name="Dimitrije Ljotić"
+		portraits={
+			civilian={
+				large="gfx/leaders/SER/r56_portrait_SER_Dimitrije_Ljotic.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_MILAN_STOJADINOVIC_DESC"
+			ideology=fascism_ideology
+			traits={ fascist_militia_leader }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	YUG_ljubomir_davidović={
+		name="Ljubomir Davidović"
+		portraits={
+			civilian={
+				large="gfx/leaders/YUG/r56_portrait_YUG_Ljubomir_Davidovic.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_MILAN_GROL_DESC"
+			ideology=liberalism
+			traits={ r56_trait_opposed_to_communism }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	YUG_vladimir_Čukavac={
+		name="Vladimir Čukavac"
+		portraits={
+			army={
+				small="GFX_Portrait_yugoslavia_vladimir_cukavac_small"
+			}
+			army={
+				large="GFX_Portrait_yugoslavia_vladimir_cukavac"
+			}
+		}
+		corps_commander={
+			traits={ trickster }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=7000
+		}
+	}
+	YUG_danilo_kalafatović={
+		name="Danilo Kalafatović"
+		portraits={
+			army={
+				small="GFX_Portrait_yugoslavia_danilo_kalafatovic_small"
+			}
+			army={
+				large="GFX_Portrait_yugoslavia_danilo_kalafatovic"
+			}
+		}
+		field_marshal={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=7001
+		}
+	}
+	YUG_milutin_nedić={
+		name="Milutin Nedić"
+		portraits={
+			army={
+				small="GFX_Portrait_yugoslavia_milutin_nedic_small"
+			}
+			army={
+				large="GFX_Portrait_yugoslavia_milutin_nedic"
+			}
+		}
+		field_marshal={
+			traits={ thorough_planner }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=7002
+		}
+	}
+	YUG_petar_kosić={
+		name="Petar Kosić"
+		portraits={
+			army={
+				small="GFX_Portrait_yugoslavia_petar_kosic_small"
+			}
+			army={
+				large="GFX_Portrait_yugoslavia_petar_kosic"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=7003
+		}
+	}
+	YUG_marijan_polić={
+		name="Marijan Polić"
+		portraits={
+			army={
+				small="GFX_Portrait_yugoslavia_marijan_polic_small"
+			}
+			army={
+				large="GFX_Portrait_yugoslavia_marijan_polic"
+			}
+		}
+		navy_leader={
+			traits={ old_guard_navy gentlemanly navy_career_officer superior_tactician }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=7004
+		}
+	}
+	YUG_milan_kostić={
+		name="Milan Kostić"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/SER/r56_portrait_SER_Milan_Kostic.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=7007
+		}
+	}
+	YUG_ljubomir_marić={
+		name="Ljubomir Marić"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/YUG/r56_portrait_YUG_Ljubomir_Maric.dds"
+			}
+		}
+		corps_commander={
+			traits={ career_officer trickster }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=7009
+		}
+	}
+	YUG_dušan_trifunović={
+		name="Dušan Trifunović"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/YUG/r56_portrait_YUG_Dusan_Trifunovic.dds"
+			}
+		}
+		corps_commander={
+			traits={ air_force_ties trait_mountaineer }
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=7013
+		}
+	}
+	YUG_petar_vukčević={
+		name="Petar Vukčević"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/YUG/r56_portrait_YUG_Petar_Vukicevic.dds"
+			}
+		}
+		corps_commander={
+			traits={ old_guard air_force_ties }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=7014
+		}
+	}
+	YUG_borivoje_mirković={
+		name="Borivoje Mirković"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/YUG/r56_portrait_YUG_Birivoje_Mirkovic.dds"
+			}
+		}
+		corps_commander={
+			traits={ air_force_ties politically_connected commando }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=7015
+		}
+	}
+	YUG_dušan_simović={
+		name="Dušan Simović"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/YUG/r56_portrait_YUG_Dusan_Simovic.dds"
+			}
+		}
+		corps_commander={
+			traits={ air_force_ties }
+			skill=3
+			attack_skill=2
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=4
+			legacy_id=7016
+		}
+	}
+	YUG_milojko_janković={
+		name="Milojko Janković"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/YUG/r56_portrait_YUG_Milojko_Jankovic.dds"
+			}
+		}
+		corps_commander={
+			traits={ career_officer air_force_ties }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=7017
+		}
+	}
+	YUG_jovan_naumović={
+		name="Jovan Naumović"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/YUG/r56_portrait_YUG_Jovan_Naumovic.dds"
+			}
+		}
+		corps_commander={
+			traits={ old_guard career_officer infantry_officer }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=4
+			legacy_id=7018
+		}
+	}
+	YUG_arso_jovanović={
+		name="Arso Jovanović"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/MNT/r56_portrait_MNT_Arso_Jovanovic.dds"
+			}
+		}
+		corps_commander={
+			traits={ career_officer infantry_officer trickster }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=7401
+		}
+	}
+}

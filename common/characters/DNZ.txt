@@ -1,0 +1,79 @@
+characters={
+	DNZ_arthur_karl_greiser={
+		name="Arthur Karl Greiser"
+		portraits={
+			civilian={
+				large="gfx/leaders/DNZ/r56_portrait_DNZ_Gresier.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_ARTHUR_KARL_GREISER_DESC"
+			ideology=nazism
+			traits={ likes_germany }
+			expire="1939.11.23.1"
+			id=-1
+		}
+	}
+	DNZ_ernst_ziehm={
+		name="Ernst Ziehm"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_5.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_ERNST_ZIEHM_DESC"
+			ideology=centrism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	DNZ_hermann_rauschning={
+		name="Hermann Rauschning"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_4.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_HERMANN_RAUSCHNING_DESC"
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	DNZ_anton_plenikowski={
+		name="Anton Plenikowski"
+		portraits={
+			civilian={
+				large="gfx/leaders/DNZ/r56_portrait_DNZ_Anton_Plenikowski.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_ANTON_PLENIKOWSKI_DESC"
+			ideology=stalinism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	DNZ_helmut_froböss={
+		name="Helmut Froböss"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_europe_generic_land_3.dds"
+			}
+			army={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+			}
+		}
+		corps_commander={
+			traits={ urban_assault_specialist }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+}

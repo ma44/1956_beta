@@ -1,0 +1,157 @@
+characters={
+	ELS_maximiliano_hernández_martínez={
+		name="Maximiliano Hernández Martínez"
+		portraits={
+			civilian={
+				large="GFX_portrait_el_salvador_maximiliano_hernandez_martinez"
+			}
+		}
+		country_leader={
+			desc="POLITICS_MAXIMILIANO_HERNANDEZ_MARTINEZ_DESC"
+			ideology=despotism
+			traits={ nationalistic_tendencies }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	ELS_salvador_castaneda_castro={
+		name="Salvador Castaneda Castro"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ELS/r56_Portrait_ELS_Salvador_Castaneda_Castro.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	ELS_arturo_araujo={
+		name="Arturo Araujo"
+		portraits={
+			civilian={
+				large="gfx/leaders/ELS/r56_Portrait_ELS_Arturo_Araujo.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_ARTURO_ARAUJO_DESC"
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	ELS_miguel_mármol={
+		name="Miguel Mármol"
+		portraits={
+			civilian={
+				large="gfx/leaders/ELS/r56_portrait_ELS_Miguel_Mármol.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_MIGUEL_MÁRMOL_DESC"
+			ideology=marxism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	ELS_osmín_aguirre={
+		name="Osmín Aguirre"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ELS/r56_Portrait_ELS_Osmin_Aguirre_y_Salinas.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_cautious politically_connected }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ELS_andrés_ignacio_menéndez={
+		name="Andrés Ignacio Menéndez"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ELS/r56_Portrait_ELS_Andres_Ignacio_Menendez.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	ELS_josé_arturo_castellanos={
+		name="José Arturo Castellanos"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_south_america_generic_land_2.dds"
+			}
+			army={
+				large="gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
+			}
+		}
+		field_marshal={
+			traits={ caring_leader }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	ELS_cesar_yanes_urías={
+		name="Cesar Yanes Urías"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_europe_generic_navy_2.dds"
+			}
+			army={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
+			}
+		}
+		navy_leader={
+			traits={ navy_career_officer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	ELS_jesús_cárdenas={
+		name="Jesús Cárdenas"
+		portraits={
+			civilian={
+				large="GFX_portrait_south_america_generic_9"
+			}
+		}
+		country_leader={
+			ideology=gen_nazism
+			traits={ ideological_groupie retired_officer }
+			expire="1941.1.1.12"
+			id=-1
+		}
+	}
+}

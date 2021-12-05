@@ -1,0 +1,86 @@
+characters={
+	TAN_salchak_toka={
+		name="Salchak Toka"
+		portraits={
+			civilian={
+				large="gfx/leaders/TAN/r56_portrait_TAN_Salchak_Toka.dds"
+			}
+		}
+		field_marshal={
+			traits={ old_guard politically_connected }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+		country_leader={
+			desc="POLITICS_SALCHAK_TOKA_DESC"
+			ideology=stalinism
+			traits={ savvy_politician }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	TAN_tyulyush_kechilool={
+		name="Tyulyush Kechil-ool"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/TAN/r56_portrait_TAN_Tyulyush_Kechil-ool.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_reckless cavalry_officer }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	TAN_songgotu_xingde={
+		name="Songgotu Xingde"
+		portraits={
+			civilian={
+				large="gfx/leaders/JAP/Portrait_Japan_Generic_2.dds"
+			}
+		}
+		country_leader={
+			ideology=centrism_democratic
+			traits={ reluctant_interventionist silent_mule }
+			expire="1954.1.1.12"
+			id=-1
+		}
+	}
+	TAN_fu_tiemei={
+		name="Fu Tiemei"
+		portraits={
+			civilian={
+				large="gfx/leaders/r56_generic/r56_portrait_generic_politician_asia_1_fascism.dds"
+			}
+		}
+		country_leader={
+			ideology=falangism
+			expire="1943.1.1.12"
+			id=-1
+		}
+	}
+	TAN_songgotu_linge={
+		name="Songgotu Linge"
+		portraits={
+			civilian={
+				large="gfx/leaders/r56_generic/r56_portrait_generic_politician_asia_1_fascism.dds"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1947.1.1.12"
+			id=-1
+		}
+	}
+}

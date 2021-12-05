@@ -1,0 +1,381 @@
+characters={
+	NOR_johan_nygaardsvold={
+		name="Johan Nygaardsvold"
+		portraits={
+			civilian={
+				large="gfx/leaders/NOR/Portrait_Norway_Johan_Nygaardsvold.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_JOHAN_NYGAARDSVOLD_DESC"
+			ideology=socialism
+			traits={ liberal_grandee naw_welfare_proponent }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	NOR_vidkun_quisling={
+		name="Vidkun Quisling"
+		portraits={
+			civilian={
+				large="gfx/leaders/NOR/Portrait_Norway_Vidkun_Quisling.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_VIDKUN_QUISLING_DESC"
+			ideology=nazism
+			traits={ naw_militia_proponent }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	NOR_johan_ludwig_mowinckel={
+		name="Johan Ludwig Mowinckel"
+		portraits={
+			civilian={
+				large="gfx/leaders/NOR/r56_portrait_NOR_Johan_Ludwig_Mowinckel.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_JOHAN_LUDWIG_MOWINCKEL_DESC"
+			ideology=centrism
+			traits={ captain_of_industry naw_business_owner }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	NOR_adam_egedenissen={
+		name="Adam Egede-Nissen"
+		portraits={
+			civilian={
+				large="gfx/leaders/NOR/r56_portrait_NOR_Adam_Egede-Nissen.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_ADAM_EGEDE_NISSEN_DESC"
+			ideology=marxism
+			traits={ naw_propagandist }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	NOR_carl_gustav_fleischer={
+		name="Carl Gustav Fleischer"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/NOR/r56_portrait_NOR_Carl_Gustav_Fleischer.dds"
+			}
+		}
+		corps_commander={
+			traits={ brilliant_strategist infantry_officer trickster winter_specialist }
+			skill=4
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=4
+			legacy_id=-1
+		}
+	}
+	NOR_elias_corneliussen={
+		name="Elias Corneliussen"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_europe_generic_navy_2.dds"
+			}
+			army={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
+			}
+		}
+		navy_leader={
+			traits={ navy_career_officer blockade_runner spotter inshore_fighter }
+			skill=3
+			attack_skill=2
+			defense_skill=4
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	NOR_henry_diesen={
+		name="Henry Diesen"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/NOR/r56_portrait_NOR_Henry_Diesen.dds"
+			}
+		}
+		navy_leader={
+			traits={ gentlemanly spotter }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	NOR_otto_ruge={
+		name="Otto Ruge"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/NOR/r56_portrait_NOR_Otto_Ruge.dds"
+			}
+		}
+		field_marshal={
+			traits={ inflexible_strategist infantry_officer organizer inspirational_leader }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	NOR_kristian_laake={
+		name="Kristian Laake"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/NOR/r56_portrait_NOR_Kristian_Laake.dds"
+			}
+		}
+		field_marshal={
+			traits={ inflexible_strategist politically_connected defensive_doctrine }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	NOR_edgar_otto={
+		name="Edgar Otto"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/NOR/r56_portrait_NOR_Edgar_Otto.dds"
+			}
+		}
+		navy_leader={
+			traits={ navy_career_officer naval_lineage ironside }
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	NOR_william_steffens={
+		name="William Steffens"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/NOR/r56_portrait_NOR_William_Steffens.dds"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer commando ranger }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	NOR_jacob_hvinden_haug={
+		name="Jacob Hvinden Haug"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/NOR/r56_portrait_NOR_Jacob_Hvinden_Haug.dds"
+			}
+		}
+		corps_commander={
+			traits={ cavalry_officer trait_engineer ranger }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	NOR_birger_eriksen={
+		name="Birger Eriksen"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/NOR/r56_portrait_NOR_Birger_Eriksen.dds"
+			}
+		}
+		corps_commander={
+			traits={ trickster }
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	NOR_hans_reidar_holtermann={
+		name="Hans Reidar Holtermann"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/NOR/r56_portrait_NOR_Hans_Reidar_Holtermann.dds"
+			}
+		}
+		corps_commander={
+			traits={ hill_fighter }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	NOR_rasmus_larsen_hatledal={
+		name="Rasmus Larsen Hatledal"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			army={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+			}
+		}
+		corps_commander={
+			traits={ hill_fighter }
+			skill=2
+			attack_skill=2
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	NOR_carl_johan_erichsen={
+		name="Carl Johan Erichsen"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/NOR/r56_portrait_NOR_Carl_Johan_Erichsen.dds"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	NOR_trygve_frivold_graffwang={
+		name="Trygve Frivold Graff-Wang"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/NOR/r56_portrait_NOR_Trygve_Frivold_Graff-Wang.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_cautious infantry_officer }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	NOR_jacob_ager_laurantzon={
+		name="Jacob Ager Laurantzon"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/NOR/r56_portrait_NOR_Jacob_Ager_Laurantzon.dds"
+			}
+		}
+		corps_commander={
+			traits={ old_guard }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	NOR_halvor_hansson={
+		name="Halvor Hansson"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_europe_generic_land_3.dds"
+			}
+			army={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	NOR_carsten_tanknielsen={
+		name="Carsten Tank-Nielsen"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/NOR/r56_portrait_NOR_Carsten_Tank-Nielsen.dds"
+			}
+		}
+		navy_leader={
+			traits={ bold navy_career_officer aviation_enthusiast seawolf blockade_runner }
+			skill=3
+			attack_skill=1
+			defense_skill=3
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+}

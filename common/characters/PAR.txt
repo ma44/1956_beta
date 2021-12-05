@@ -1,0 +1,170 @@
+characters={
+	PAR_rafael_franco={
+		name="Rafael Franco"
+		portraits={
+			civilian={
+				large="GFX_Portrait_paraguay_rafael_franco"
+			}
+		}
+		country_leader={
+			desc="POLITICS_RAFAEL_FRANCO_DESC"
+			ideology=despotism
+			traits={ nationalistic_tendencies army_connections }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	PAR_higinio_morinigo={
+		name="Higinio Morinigo"
+		portraits={
+			civilian={
+				large="gfx/leaders/PAR/r56_portrait_PAR_Higinio_Morinigo.dds"
+			}
+		}
+		corps_commander={
+			traits={ media_personality harsh_leader politically_connected }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=6061
+		}
+		country_leader={
+			desc="POLITICS_HIGINIO_MORINIGO_DESC"
+			ideology=clerical_fascism
+			traits={ army_connections fascist_militia_leader }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	PAR_eusebio_ayala={
+		name="Eusebio Ayala"
+		portraits={
+			civilian={
+				large="gfx/leaders/PAR/r56_portrait_PAR_Eusebio_Ayala.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_RAFAEL_FRANCO_DESC"
+			ideology=liberalism
+			traits={ anti_communist }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	PAR_obdulio_barthe={
+		name="Obdulio Barthe"
+		portraits={
+			civilian={
+				large="gfx/leaders/PAR/r56_portrait_PAR_Obdulio_Barthe.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_OBDULIO_BARTHE_DESC"
+			ideology=marxism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	PAR_josé_félix_estigarribia={
+		name="José Félix Estigarribia"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/PAR/r56_portrait_PAR_jose_felix_estigarribia.dds"
+			}
+		}
+		field_marshal={
+			traits={ brilliant_strategist trait_reckless decided_planner war_hero }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	PAR_luis_irrazábal={
+		name="Luis Irrazábal"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_south_america_generic_land_2.dds"
+			}
+			army={
+				large="gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
+			}
+		}
+		corps_commander={
+			traits={ war_hero trickster commando }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	PAR_carlos_fernandez={
+		name="Carlos Fernandez"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_south_america_generic_land_3.dds"
+			}
+			army={
+				large="gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
+			}
+		}
+		corps_commander={
+			traits={ career_officer infantry_officer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	PAR_norberto_jara_román={
+		name="Norberto Jara Román"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_south_america_generic_navy_1.dds"
+			}
+			army={
+				large="gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
+			}
+		}
+		navy_leader={
+			traits={ bold }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	PAR_josé_bozzano={
+		name="José Bozzano"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/r56_generic/r56_portrait_generic_admiral_GER_3.dds"
+			}
+		}
+		navy_leader={
+			traits={ spotter }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+}

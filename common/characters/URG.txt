@@ -1,0 +1,155 @@
+characters={
+	URG_gabriel_terra={
+		name="Gabriel Terra"
+		portraits={
+			civilian={
+				large="GFX_portrait_uruguay_portrait_gabriel_terra"
+			}
+		}
+		country_leader={
+			desc="POLITICS_GABRIEL_TERRA_DESC"
+			ideology=despotism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	URG_alfredo_baldomir={
+		name="Alfredo Baldomir"
+		portraits={
+			civilian={
+				large="GFX_Portrait_Uruguay_Alfredo_Baldomir"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	URG_arturo_juambeltz={
+		name="Arturo Juambeltz"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/URG/r56_portrait_URG_Arturo_Juambeltz.dds"
+			}
+		}
+		navy_leader={
+			traits={ spotter }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	URG_juan_battione={
+		name="Juan Battione"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/r56_generic/r56_portrait_generic_admiral_south_america_1.dds"
+			}
+		}
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	URG_luis_alberto_de_herrera={
+		name="Luis Alberto De Herrera"
+		portraits={
+			civilian={
+				large="GFX_Portrait_Uruguay_Luis_Alberto_De_Herrera"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	URG_rodney_arismendi={
+		name="Rodney Arismendi"
+		portraits={
+			civilian={
+				large="gfx/leaders/URG/r56_portrait_URG_Rodney_Arismendi.dds"
+			}
+		}
+		country_leader={
+			ideology=marxism
+			traits={ veteran_communist }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	URG_tydeo_larre_borges={
+		name="Tydeo Larre Borges"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/URG/Portrait_Uruguay_Tydeo_Larre_Borges.dds"
+			}
+		}
+		corps_commander={
+			traits={ career_officer air_force_ties offensive_doctrine }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=4
+			legacy_id=-1
+		}
+	}
+	URG_pedro_sicco={
+		name="Pedro Sicco"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/URG/Portrait_Uruguay_Pedro_Sicco.dds"
+			}
+		}
+		field_marshal={
+			traits={ trait_cautious infantry_officer defensive_doctrine }
+			skill=3
+			attack_skill=2
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	URG_gustavo_schroeder={
+		name="Gustavo Schroeder"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/r56_generic/r56_portrait_generic_admiral_GRE_1.dds"
+			}
+		}
+		navy_leader={
+			traits={ bold blockade_runner }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+}

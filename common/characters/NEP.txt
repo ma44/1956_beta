@@ -1,0 +1,87 @@
+characters={
+	NEP_juddha_rana={
+		name="Juddha Rana"
+		portraits={
+			civilian={
+				large="GFX_portrait_nepal_portrait_juddah_rana"
+			}
+		}
+		field_marshal={
+			traits={ politically_connected promising defensive_doctrine }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+		country_leader={
+			desc="POLITICS_JUDDHA_RANA_DESC"
+			ideology=absolute_monarchism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	NEP_kaiser_rana={
+		name="Kaiser Rana"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/NEP/r56_portrait_NEP_portrait_Kaiser_Rana.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_mountaineer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	NEP_pushpa_lal_shrestha={
+		name="Pushpa Lal Shrestha"
+		portraits={
+			civilian={
+				large="gfx/leaders/NEP/r56_portrait_NEP_Pushpa_Lal_Shrestha.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_JUDDHA_RANA_DESC"
+			ideology=leninism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	NEP_tanka_prasad_acharya={
+		name="Tanka Prasad Acharya"
+		portraits={
+			civilian={
+				large="gfx/leaders/NEP/r56_portrait_NEP_Tanka_Prasad_Acharya.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_JUDDHA_RANA_DESC"
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	NEP_bhakti_singh={
+		name="Bhakti Singh"
+		portraits={
+			civilian={
+				large="GFX_portrait_asia_generic_4"
+			}
+		}
+		country_leader={
+			ideology=nazism
+			traits={ naw_welfare_proponent smooth_talking_con_man }
+			expire="1952.1.1.12"
+			id=-1
+		}
+	}
+}

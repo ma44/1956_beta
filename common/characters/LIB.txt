@@ -1,0 +1,137 @@
+characters={
+	LIB_edwin_barclay={
+		name="Edwin Barclay"
+		portraits={
+			civilian={
+				large="gfx/leaders/LIB/r56_portrait_LIB_edwin_barclay.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_EDWIN_BARCLAY_DESC"
+			ideology=oligarchic_democracy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	LIB_charles_h._banks={
+		name="Charles H. Banks"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/Africa/portrait_africa_generic_land_6.dds"
+			}
+		}
+		field_marshal={
+			traits={ old_guard trait_cautious inspirational_leader }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	LIB_moses_n._grant={
+		name="Moses N. Grant"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_africa_generic_land_2.dds"
+			}
+			army={
+				large="gfx/leaders/Africa/portrait_africa_generic_land_2.dds"
+			}
+		}
+		corps_commander={
+			traits={ jungle_rat }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	LIB_joseph_itoka={
+		name="Joseph Itoka"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_africa_generic_land_4.dds"
+			}
+			army={
+				large="gfx/leaders/Africa/Portrait_Africa_Generic_land_4.dds"
+			}
+		}
+		corps_commander={
+			traits={ homeland_connoisseur }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	LIB_b._n._y._nyekan={
+		name="B. N. Y. Nyekan"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/Africa/portrait_africa_generic_land_7.dds"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	LIB_aaron_gardner={
+		name="Aaron Gardner"
+		portraits={
+			civilian={
+				large="GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+			}
+		}
+		country_leader={
+			ideology=marxism
+			traits={ economist }
+			expire="1943.1.1.12"
+			id=-1
+		}
+	}
+	LIB_caesar_flipper={
+		name="Caesar Flipper"
+		portraits={
+			civilian={
+				large="GFX_Portrait_South_Africa_Political_Leader_Generic_2"
+			}
+		}
+		country_leader={
+			ideology=nazism
+			expire="1946.1.1.12"
+			id=-1
+		}
+	}
+	LIB_osborne_carney={
+		name="Osborne Carney"
+		portraits={
+			civilian={
+				large="GFX_Portrait_South_Africa_Political_Leader_Generic"
+			}
+		}
+		country_leader={
+			ideology=moderatism
+			traits={ retired_officer }
+			expire="1949.1.1.12"
+			id=-1
+		}
+	}
+}

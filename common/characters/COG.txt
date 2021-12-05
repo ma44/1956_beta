@@ -1,0 +1,166 @@
+characters={
+	COG_albert_decoster={
+		name="Albert Decoster"
+		portraits={
+			civilian={
+				large="gfx/leaders/GER/Portrait_Germany_Generic_1.dds"
+			}
+		}
+		country_leader={
+			ideology=stalinism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	COG_robert_mauroy={
+		name="Robert Mauroy"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/COG/portrait_europe_generic_6_africa.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	COG_paul_ermens={
+		name="Paul Ermens"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/COG/Portrait_Europe_Generic_land_3_africa_2.dds"
+			}
+		}
+		field_marshal={
+			traits={ career_officer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	COG_françois_tolenga={
+		name="François Tolenga"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/Portrait_Africa_Generic_2.dds"
+			}
+		}
+		country_leader={
+			ideology=moderatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	COG_pierre_ryckmans={
+		name="Pierre Ryckmans"
+		portraits={
+			civilian={
+				large="gfx/leaders/COG/Pierre_Ryckmans.dds"
+			}
+		}
+		country_leader={
+			desc="Pierre Ryckmans, Governor General of the Belgian Congo"
+			ideology=despotism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	COG_raymond_cloquet={
+		name="Raymond Cloquet"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/portrait_europe_generic_4.dds"
+			}
+		}
+		country_leader={
+			ideology=rexism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	COG_jean_bolikango={
+		name="Jean Bolikango"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/Portrait_Africa_Generic_3.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			traits={ compassionate_gentleman }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	COG_augusteÉdouard_gilliaert={
+		name="Auguste-Édouard Gilliaert"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/BEL/r56_portrait_BEL_Auguste_Edouard_Gilliaert.dds"
+			}
+		}
+		corps_commander={
+			traits={ career_officer infantry_officer jungle_rat }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	COG_charlesjoseph_haas={
+		name="Charles-Joseph Haas"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/COG/Portrait_Europe_Generic_land_5_africa_2.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	COG_jean_colin={
+		name="Jean Colin"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/COG/Portrait_COG_jean_colin.dds"
+			}
+		}
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+}

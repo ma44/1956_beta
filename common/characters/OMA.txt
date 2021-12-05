@@ -1,0 +1,66 @@
+characters={
+	OMA_said_bin_taimur={
+		name="Said bin Taimur"
+		portraits={
+			civilian={
+				large="GFX_portrait_oman_said_bin_taimur"
+			}
+		}
+		field_marshal={
+			traits={ old_guard politically_connected }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+		country_leader={
+			desc="POLITICS_SAID_BIN_TAIMUR_DESC"
+			ideology=absolute_monarchism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	OMA_ali_alnablusi={
+		name="Ali al-Nablusi"
+		portraits={
+			civilian={
+				large="GFX_Portrait_Arabia_Generic_2"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1950.1.1.12"
+			id=-1
+		}
+	}
+	OMA_shukri_alnablusi={
+		name="Shukri al-Nablusi"
+		portraits={
+			civilian={
+				large="GFX_Portrait_Arabia_Generic_1"
+			}
+		}
+		country_leader={
+			ideology=stalinism
+			traits={ smooth_talking_charmer captain_of_industry }
+			expire="1942.1.1.12"
+			id=-1
+		}
+	}
+	OMA_mustafa_alhalabi={
+		name="Mustafa al-Halabi"
+		portraits={
+			civilian={
+				large="GFX_Portrait_Arabia_Generic_3"
+			}
+		}
+		country_leader={
+			ideology=falangism
+			traits={ ideological_groupie savvy_politician }
+			expire="1950.1.1.12"
+			id=-1
+		}
+	}
+}

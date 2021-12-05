@@ -1,0 +1,242 @@
+characters={
+	CHL_arturo_alessandri={
+		name="Arturo Alessandri"
+		portraits={
+			civilian={
+				large="GFX_Portrait_chile_arturo_alessandri"
+			}
+		}
+		country_leader={
+			desc="POLITICS_ARTURO_ALESSANDRI_DESC"
+			ideology=moderatism
+			traits={ lion_of_tarapaca }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	CHL_jorge_gonzález_von_marées={
+		name="Jorge González von Marées"
+		portraits={
+			civilian={
+				large="gfx/leaders/CHL/r56_Portrait_CHL_Jorge_Von_Marees.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_JORGE_GONZÁLEZ_VON_MARÉES_DESC"
+			ideology=nazism
+			traits={ fascist_militia_leader r56_trait_opposed_to_communism }
+			expire="1965.10.26.1"
+			id=-1
+		}
+	}
+	CHL_carlos_contreras_labarca={
+		name="Carlos Contreras Labarca"
+		portraits={
+			civilian={
+				large="gfx/leaders/CHL/r56_portrait_CHL_Carlos_Contreras_Labarca.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_CARLOS_CONTRERAS_LABARCA_DESC"
+			ideology=marxism
+			traits={ veteran_communist }
+			expire="1965.10.26.1"
+			id=-1
+		}
+	}
+	CHL_pedro_aguirre_cerda={
+		name="Pedro Aguirre Cerda"
+		portraits={
+			civilian={
+				large="gfx/leaders/CHL/r56_Portrait_CHL_Pedro_Cerda.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_CHILE_CERDA_DESC"
+			ideology=socialism
+			traits={ captain_of_industry }
+			expire="1962.10.26.1"
+			id=-1
+		}
+	}
+	CHL_escudero_oscar_otárola={
+		name="Escudero Oscar Otárola"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/CHL/r56_portrait_CHL_Oscar_Escudero_Otarola.dds"
+			}
+		}
+		corps_commander={
+			traits={ career_officer trait_mountaineer }
+			skill=3
+			attack_skill=4
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	CHL_julio_allard_pinto={
+		name="Julio Allard Pinto"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_south_america_generic_navy_2.dds"
+			}
+			army={
+				large="gfx/leaders/South America/Portrait_South_America_Generic_navy_2.dds"
+			}
+		}
+		navy_leader={
+			traits={ ironside }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	CHL_carlos_fuentes_rabe={
+		name="Carlos Fuentes Rabe"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/CHL/kr_portrait_chl_generic_land_standin_1.dds"
+			}
+		}
+		field_marshal={
+			traits={ homeland_connoisseur }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	CHL_rafael_fernández_reyes={
+		name="Rafael Fernández Reyes"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/CHL/kr_portrait_chl_generic_land_standin_2.dds"
+			}
+		}
+		corps_commander={
+			traits={ artillerist }
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	CHL_guillermo_barrios_tirado={
+		name="Guillermo Barrios Tirado"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/CHL/kr_portrait_CHL_Guillermo_Barrios_Tirado.dds"
+			}
+		}
+		corps_commander={
+			traits={ career_officer infantry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	CHL_olegario_reyes_del_río={
+		name="Olegario Reyes del Río"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/r56_generic/r56_portrait_generic_admiral_GRE_2.dds"
+			}
+		}
+		navy_leader={
+			traits={ bold navy_career_officer blockade_runner }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	CHL_luis_Álvarez_jaramillo={
+		name="Luis Álvarez Jaramillo"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/r56_generic/r56_portrait_generic_admiral_GRE_1.dds"
+			}
+		}
+		navy_leader={
+			traits={ superior_tactician }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	CHL_vicente_merino_bielich={
+		name="Vicente Merino Bielich"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/r56_generic/r56_portrait_generic_admiral_GER_3.dds"
+			}
+		}
+		navy_leader={
+			traits={ spotter }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	CHL_emilio_daroch_soto={
+		name="Emilio Daroch Soto"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_south_america_generic_navy_3.dds"
+			}
+			army={
+				large="gfx/leaders/South America/Portrait_South_America_Generic_navy_3.dds"
+			}
+		}
+		navy_leader={
+			traits={ navy_career_officer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+}

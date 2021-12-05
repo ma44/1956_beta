@@ -1,0 +1,117 @@
+characters={
+	MON_anandyn_amar={
+		name="Anandyn Amar"
+		portraits={
+			civilian={
+				large="GFX_portrait_mon_anandyn_amar"
+			}
+		}
+		country_leader={
+			desc="POLITICS_ANANDYN_AMAR_DESC"
+			ideology=marxism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	MON_khorloogiin_choibalsan={
+		name="Khorloogiin Choibalsan"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/MON/r56_portrait_MON_Khorloogiin_Choibalsan.dds"
+			}
+		}
+		field_marshal={
+			traits={ trait_cautious politically_connected }
+			skill=3
+			attack_skill=3
+			defense_skill=1
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	MON_butochiyn_tsog={
+		name="Butochiyn Tsog"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/MON/r56_portrait_MON_Butochiyn_Tsog.dds"
+			}
+		}
+		corps_commander={
+			traits={ artillerist }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	MON_jamsrang_tseren={
+		name="Jamsrang Tseren"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/MON/r56_portrait_MON_Jamsrang_Tseren.dds"
+			}
+		}
+		corps_commander={
+			traits={ cavalry_officer caring_leader politically_connected }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	MON_baterdene_odbayariin={
+		name="Bat-erdene Odbayariin"
+		portraits={
+			civilian={
+				large="GFX_Portrait_Asia_Generic_2"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1945.1.1.12"
+			id=-1
+		}
+	}
+	MON_tuguldur_dorjiin={
+		name="Tuguldur Dorjiin"
+		portraits={
+			civilian={
+				large="gfx/leaders/r56_generic/r56_portrait_generic_politician_asia_2_fascism.dds"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			traits={ hawk compassionate_gentleman }
+			expire="1946.1.1.12"
+			id=-1
+		}
+	}
+	MON_anand_onongiin={
+		name="Anand Onongiin"
+		portraits={
+			civilian={
+				large="gfx/leaders/JAP/Portrait_Japan_Generic_land_4.dds"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={ naw_propagandist fortification_engineer }
+			expire="1947.1.1.12"
+			id=-1
+		}
+	}
+}

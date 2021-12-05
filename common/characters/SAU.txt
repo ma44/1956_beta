@@ -1,0 +1,132 @@
+characters={
+	SAU_abdulaziz_ibn_saud={
+		name="Abdulaziz Ibn Saud"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAU/Portrait_Saudi_Arabia_Abdulazis_Ibn_Saud.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_ABDULAZIZ_DESC"
+			ideology=fascism_ideology
+			traits={ fierce_patriot }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_ABDULAZIZ_DESC"
+			ideology=monarchical_theocracy
+			traits={ fierce_patriot }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	SAU_muhammad_ibn_abbu_bakr={
+		name="Muhammad Ibn Abbu Bakr"
+		portraits={
+			civilian={
+				large="gfx/leaders/r56_generic/r56_portrait_generic_politician_south_america_2.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			traits={ nationalistic_tendencies }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	SAU_ali_bin_uthman={
+		name="Ali Bin Uthman"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAU/Portrait_Arabia_Generic_communism1.dds"
+			}
+		}
+		country_leader={
+			ideology=stalinism
+			traits={ hawk }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	SAU_abdul_abdulaziz_al_saud={
+		name="Abdul Abdulaziz Al Saud"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_SAU_arabia_abdulazis_ibn_saud.dds"
+			}
+			army={
+				large="gfx/leaders/SAU/Portrait_Saudi_Arabia_Abdulazis_Ibn_Saud.dds"
+			}
+		}
+		field_marshal={
+			traits={ old_guard politically_connected war_hero desert_fox }
+			skill=3
+			attack_skill=4
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	SAU_khalid_bin_abdulaziz_al_saud={
+		name="Khalid Bin Abdulaziz Al Saud"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/SAU/r56_Portrait_SAU_Khalid_bin_Abdulaziz_Al_Saud.dds"
+			}
+		}
+		corps_commander={
+			traits={ old_guard politically_connected war_hero }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	SAU_faisal_abdulaziz_al_saud={
+		name="Faisal Abdulaziz Al Saud"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/SAU/r56_portrait_SAU_Faisal_Bin_Abdulaziz_Al_Saud.dds"
+			}
+		}
+		corps_commander={
+			traits={ cavalry_officer politically_connected }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	SAU_saud_bin_al_saud={
+		name="Saud Bin Al Saud"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_SAU_generic_land_1.dds"
+			}
+			army={
+				large="gfx/leaders/SAU/Portrait_Arabia_Generic_land_1.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_cautious politically_connected }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+}

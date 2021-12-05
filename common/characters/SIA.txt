@@ -1,0 +1,138 @@
+characters={
+	SIA_phraya_phahon={
+		name="Phraya Phahon"
+		portraits={
+			civilian={
+				large="gfx/leaders/SIA/Portrait_Siam_Phraya_Phahon.dds"
+			}
+		}
+		corps_commander={
+			traits={ career_officer trait_cautious }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=6004
+		}
+		country_leader={
+			desc="POLITICS_PHRAYA_PHAHON_DESC"
+			ideology=despotism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	SIA_plaek_phibunsongkhram={
+		name="Plaek Phibunsongkhram"
+		portraits={
+			civilian={
+				large="GFX_Portrait_SIA_Plaek_Phibunsongkhram"
+			}
+		}
+		corps_commander={
+			traits={ inflexible_strategist media_personality harsh_leader }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=6003
+		}
+		country_leader={
+			desc="POLITICS_PHIBUN_DESC"
+			ideology=fascism_ideology
+			traits={ r56_trait_opposed_to_communism }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	SIA_direk_jayanama={
+		name="Direk Jayanama"
+		portraits={
+			civilian={
+				large="GFX_Portrait_SIA_Direk_Jayanama"
+			}
+		}
+		country_leader={
+			desc="POLITICS_DIREK_JAYANAMA_DESC"
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	SIA_pridi_banomyong={
+		name="Pridi Banomyong"
+		portraits={
+			civilian={
+				large="GFX_Portrait_SIA_Pridi_Banomyong"
+			}
+		}
+		country_leader={
+			desc="POLITICS_PRIDI_BANOMYONG_DESC"
+			ideology=marxism
+			traits={ r56_trait_opposed_to_fascism }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	SIA_phin_choonhavan={
+		name="Phin Choonhavan"
+		portraits={
+			army={
+				small="GFX_Portrait_Siam_Phin_Choonhavan_small"
+			}
+			army={
+				large="GFX_Portrait_Siam_Phin_Choonhavan"
+			}
+		}
+		field_marshal={
+			traits={ brilliant_strategist infantry_officer defensive_doctrine }
+			skill=4
+			attack_skill=5
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=4
+			legacy_id=6001
+		}
+	}
+	SIA_charun_rattanakun_seriroengrit={
+		name="Charun Rattanakun Seriroengrit"
+		portraits={
+			army={
+				small="GFX_Portrait_Siam_Charun_Rattanakun_Seriroengrit_small"
+			}
+			army={
+				large="GFX_Portrait_Siam_Charun_Rattanakun_Seriroengrit"
+			}
+		}
+		corps_commander={
+			traits={ old_guard trickster }
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=6002
+		}
+	}
+	SIA_sinthin_kamolnawin={
+		name="Sinthin Kamolnawin"
+		portraits={
+			army={
+				small="GFX_Portrait_Siam_Sinthin_Kamolnawin_small"
+			}
+			army={
+				large="GFX_Portrait_Siam_Sinthin_Kamolnawin"
+			}
+		}
+		navy_leader={
+			traits={ aviation_enthusiast naval_lineage }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=6005
+		}
+	}
+}

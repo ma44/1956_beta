@@ -1,0 +1,377 @@
+characters={
+	CAN_mackenzie_king={
+		name="Mackenzie King"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAN/r56_portrait_CAN_Mackenzie_King.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_MACKENZIE_KING_DESC"
+			ideology=liberalism
+			traits={ great_compromiser }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	CAN_adrien_arcand={
+		name="Adrien Arcand"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAN/r56_portrait_CAN_Adrien_Arcand.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_ADRIEN_ARCAND_DESC"
+			ideology=nazism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	CAN_tim_buck={
+		name="Tim Buck"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAN/r56_portrait_CAN_tim_buck.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_TIM_BUCK_DESC"
+			ideology=marxism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	CAN_thomas_victor_anderson={
+		name="Thomas Victor Anderson"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/CAN/r56_portrait_CAN_Thomas_Victor_Anderson.dds"
+			}
+		}
+		corps_commander={
+			skill=4
+			attack_skill=2
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=5
+			legacy_id=-1
+		}
+	}
+	CAN_charles_foulkes={
+		name="Charles Foulkes"
+		portraits={
+			army={
+				small="GFX_CAN_charles_foulkes_small"
+			}
+			army={
+				large="GFX_CAN_charles_foulkes"
+			}
+		}
+		corps_commander={
+			skill=4
+			attack_skill=4
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	CAN_bert_hoffmeister={
+		name="Bert Hoffmeister"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/CAN/r56_portrait_CAN_Bert_Hoffmeister.dds"
+			}
+		}
+		corps_commander={
+			traits={ meticulous hill_fighter }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	CAN_harry_dewolf={
+		name="Harry DeWolf"
+		portraits={
+			army={
+				small="GFX_CAN_harry_dewolf_small"
+			}
+			army={
+				large="GFX_CAN_harry_dewolf"
+			}
+		}
+		navy_leader={
+			traits={ bold superior_tactician }
+			skill=4
+			attack_skill=3
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	CAN_kenneth_stuart={
+		name="Kenneth Stuart"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/CAN/r56_portrait_CAN_Kenneth_Stuart.dds"
+			}
+		}
+		corps_commander={
+			traits={ armor_officer trait_engineer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	CAN_harry_crerar={
+		name="Harry Crerar"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/CAN/r56_portrait_CAN_Harry_Crerar.dds"
+			}
+		}
+		field_marshal={
+			traits={ career_officer artillerist skilled_staffer }
+			skill=3
+			attack_skill=2
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=4
+			legacy_id=-1
+		}
+	}
+	CAN_andrew_mcnaughton={
+		name="Andrew McNaughton"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/CAN/r56_portrait_CAN_Andrew_Mcnaughton.dds"
+			}
+		}
+		field_marshal={
+			traits={ trait_cautious media_personality caring_leader politically_connected trait_engineer }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	CAN_john_buchan={
+		name="John Buchan"
+		portraits={
+			civilian={
+				large="gfx/leaders/CAN/r56_portrait_CAN_John_Buchan.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_JS_WOODSWORTH_DESC"
+			ideology=oligarchism
+			traits={ governor_general }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	CAN_guy_granville_simonds={
+		name="Guy Granville Simonds"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/CAN/r56_portrait_CAN_Guy_Granville_Simonds.dds"
+			}
+		}
+		corps_commander={
+			traits={ brilliant_strategist harsh_leader armor_officer trickster }
+			skill=3
+			attack_skill=2
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	CAN_christopher_vokes={
+		name="Christopher Vokes"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/CAN/r56_portrait_CAN_Christopher_Vokes.dds"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer caring_leader }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	CAN_eedson_burns={
+		name="Eedson Burns"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/CAN/r56_portrait_CAN_Eedson_Louis_Burns.dds"
+			}
+		}
+		corps_commander={
+			traits={ decided_planner }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	CAN_arthur_potts={
+		name="Arthur Potts"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/CAN/r56_portrait_CAN_Arthur_potts.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	CAN_leonard_w._murray={
+		name="Leonard W. Murray"
+		portraits={
+			army={
+				small="GFX_CAN_leonard_warren_murray_small"
+			}
+			army={
+				large="GFX_CAN_leonard_warren_murray"
+			}
+		}
+		navy_leader={
+			traits={ naval_lineage blue_water_expert }
+			skill=4
+			attack_skill=4
+			defense_skill=3
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	CAN_h.t._bailliegrohman={
+		name="H.T. Baillie-Grohman"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_ENG_generic_navy_3.dds"
+			}
+			army={
+				large="gfx/leaders/ENG/Portrait_Britain_Generic_navy_3.dds"
+			}
+		}
+		navy_leader={
+			traits={ spotter }
+			skill=4
+			attack_skill=3
+			defense_skill=3
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	CAN_james_d._prentice={
+		name="James D. Prentice"
+		portraits={
+			army={
+				small="GFX_CAN_james_prentice_small"
+			}
+			army={
+				large="GFX_CAN_james_prentice"
+			}
+		}
+		navy_leader={
+			traits={ navy_career_officer fleet_protector }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	CAN_rollo_mainguy={
+		name="Rollo Mainguy"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/r56_generic/r56_portrait_generic_admiral_europe_1.dds"
+			}
+		}
+		navy_leader={
+			traits={ gentlemanly navy_career_officer fleet_protector }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	CAN_frank_houghton={
+		name="Frank Houghton"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_ENG_generic_navy_2.dds"
+			}
+			army={
+				large="gfx/leaders/ENG/Portrait_Britain_Generic_navy_2.dds"
+			}
+		}
+		navy_leader={
+			traits={ chief_engineer navy_career_officer }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+}

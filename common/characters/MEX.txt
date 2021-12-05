@@ -1,0 +1,280 @@
+characters={
+	MEX_salvador_abascal={
+		name="Salvador Abascal"
+		portraits={
+			civilian={
+				large="GFX_Portrait_MEX_Salvador_Abascal"
+			}
+		}
+		country_leader={
+			desc="POLITICS_SALVADOR_ABASCAL_DESC"
+			ideology=falangism
+			traits={ fascist_militia_leader }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	MEX_adolfo_de_la_huerta={
+		name="Adolfo de la Huerta"
+		portraits={
+			civilian={
+				large="GFX_Portrait_MEX_Adolfo_de_la_Huerta"
+			}
+		}
+		country_leader={
+			desc="POLITICS_ADOLFO_DE_LA_HUERTA_DESC"
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	MEX_dionisio_encina={
+		name="Dionisio Encina"
+		portraits={
+			civilian={
+				large="gfx/leaders/MEX/Portrait_Mexico_Dionisio_Encina.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_DIONISIO_ENCINA_DESC"
+			ideology=stalinism
+			traits={ staunch_stalinist }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	MEX_heliodoro_charis={
+		name="Heliodoro Charis"
+		portraits={
+			army={
+				small="GFX_portrait_mex_heliodoro_charis_small"
+			}
+			army={
+				large="GFX_portrait_mex_heliodoro_charis"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer }
+			skill=3
+			attack_skill=4
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=700
+		}
+	}
+	MEX_luis_farell={
+		name="Luis Farell"
+		portraits={
+			army={
+				small="GFX_portrait_mex_luis_farell_small"
+			}
+			army={
+				large="GFX_portrait_mex_luis_farell"
+			}
+		}
+		corps_commander={
+			traits={ war_hero }
+			skill=3
+			attack_skill=4
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=701
+		}
+	}
+	MEX_lázaro_cárdenas={
+		name="Lázaro Cárdenas"
+		portraits={
+			civilian={
+				large="GFX_portrait_europe_generic_8"
+			}
+		}
+		field_marshal={
+			traits={ politically_connected }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=712
+		}
+		country_leader={
+			desc="POLITICS_LAZARO_CARDENAS_DESC"
+			ideology=despotism
+			traits={ political_dancer staunch_constitutionalist dislikes_germany r56_trait_opposed_to_fascism }
+			expire="1940.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_LAZARO_CARDENAS_DESC"
+			ideology=moderatism
+			traits={ r56_trait_opposed_to_fascism }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	MEX_manuel_gómez_morín={
+		name="Manuel Gómez Morín"
+		portraits={
+			civilian={
+				large="gfx/leaders/MEX/Portrait_Mexico_Manuel_Gomez_Morin.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_MANUEL_GOMEZ_MORIN_DESC"
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	MEX_heriberto_jara_corona={
+		name="Heriberto Jara Corona"
+		portraits={
+			army={
+				small="GFX_portrait_mex_heriberto_corona_small"
+			}
+			army={
+				large="GFX_portrait_mex_heriberto_corona"
+			}
+		}
+		navy_leader={
+			traits={ navy_media_personality }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=707
+		}
+	}
+	MEX_gildardo_magaña={
+		name="Gildardo Magaña"
+		portraits={
+			army={
+				small="GFX_portrait_mex_gildardo_magana_small"
+			}
+			army={
+				large="GFX_portrait_mex_gildardo_magana"
+			}
+		}
+		corps_commander={
+			traits={ media_personality }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=702
+		}
+	}
+	MEX_manuel_Ávila_camacho={
+		name="Manuel Ávila Camacho"
+		portraits={
+			army={
+				small="GFX_portrait_mex_avila_military_small"
+			}
+			army={
+				large="GFX_portrait_mex_avila_military"
+			}
+		}
+		corps_commander={
+			traits={ politically_connected }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=705
+		}
+	}
+	MEX_francisco_javier_barragán={
+		name="Francisco Javier Barragán"
+		portraits={
+			civilian={
+				large="GFX_portrait_europe_generic_6"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={ economist backroom_windbag }
+			expire="1951.1.1.12"
+			id=-1
+		}
+	}
+	MEX_hernán_laborde={
+		name="Hernán Laborde"
+		portraits={
+			civilian={
+				large="GFX_Portrait_MEX_Hernan_Laborde"
+			}
+		}
+		country_leader={
+			desc="POLITICS_HERNAN_LABORDE_DESC"
+			ideology=leninism
+			traits={ devoted_trotskyist }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	MEX_manuel_pérez_treviño={
+		name="Manuel Pérez Treviño"
+		portraits={
+			army={
+				small="GFX_portrait_mex_manuel_perez_trevino_small"
+			}
+			army={
+				large="GFX_portrait_mex_manuel_perez_trevino"
+			}
+		}
+		corps_commander={
+			traits={ career_officer }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=703
+		}
+	}
+	MEX_abelardo_l._rodríguez={
+		name="Abelardo L. Rodríguez"
+		portraits={
+			army={
+				small="GFX_portrait_mex_abelardo_rodriguez_small"
+			}
+			army={
+				large="GFX_portrait_mex_abelardo_rodriguez"
+			}
+		}
+		corps_commander={
+			traits={ politically_connected }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=704
+		}
+	}
+	MEX_othón_p._blanco_núñez_de_cáceres={
+		name="Othón P. Blanco Núñez de Cáceres"
+		portraits={
+			army={
+				small="GFX_portrait_mex_othon_blanco_small"
+			}
+			army={
+				large="GFX_portrait_mex_othon_blanco"
+			}
+		}
+		navy_leader={
+			traits={ old_guard_navy }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=706
+		}
+	}
+}

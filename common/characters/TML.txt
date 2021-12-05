@@ -1,0 +1,54 @@
+characters={
+	TML_Álvaro_eugénio_neves_da_fontoura={
+		name="Álvaro Eugénio Neves da Fontoura"
+		portraits={
+			civilian={
+				large="gfx/leaders/TML/r56_portrait_TML_Alvaro.dds"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="1953.3.1.1"
+			id=-1
+		}
+	}
+	TML_abel_ribeiro={
+		name="Abel Ribeiro"
+		portraits={
+			civilian={
+				large="gfx/leaders/r56_generic/r56_portrait_generic_politician_africa_1.dds"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1953.3.1.1"
+			id=-1
+		}
+	}
+	TML_vitório_amaral={
+		name="Vitório Amaral"
+		portraits={
+			civilian={
+				large="gfx/leaders/r56_generic/r56_portrait_generic_general_africa_1.dds"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1953.3.1.1"
+			id=-1
+		}
+	}
+	TML_francisco_mendes={
+		name="Francisco Mendes"
+		portraits={
+			civilian={
+				large="gfx/leaders/Africa/Portrait_Africa_Generic_1.dds"
+			}
+		}
+		country_leader={
+			ideology=marxism
+			expire="1953.3.1.1"
+			id=-1
+		}
+	}
+}

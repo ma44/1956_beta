@@ -1,0 +1,428 @@
+characters={
+	HOL_hendrikus_colijn={
+		name="Hendrikus Colijn"
+		portraits={
+			civilian={
+				large="GFX_portrait_holland_hendrikus_colijn"
+			}
+		}
+		country_leader={
+			desc="POLITICS_HENDRIKUS_COLJIN_DESC"
+			ideology=conservatism
+			traits={ strict_austerity_adherent }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	HOL_anton_mussert={
+		name="Anton Mussert"
+		portraits={
+			civilian={
+				large="gfx/leaders/HOL/r56_portrait_HOL_Anton_Museert.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_ANTON_MUSSERT_DESC"
+			ideology=fascism_ideology
+			traits={ leider }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	HOL_lou_de_visser={
+		name="Lou de Visser"
+		portraits={
+			civilian={
+				large="gfx/leaders/HOL/r56_portrait_HOL_Lou_De_Visser.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_LOU_DE_VISSER_DESC"
+			ideology=leninism
+			traits={ veteran_communist }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	HOL_dirk_jan_de_geer={
+		name="Dirk Jan de Geer"
+		portraits={
+			civilian={
+				large="gfx/leaders/HOL/Portrait_Netherlands_Dirk_Jan_de_Geer.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_DIRK_JAN_DE_GEER_DESC"
+			ideology=conservatism
+			traits={ defeatist }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	HOL_wilhelmina={
+		name="Wilhelmina"
+		portraits={
+			civilian={
+				large="gfx/leaders/HOL/r56_portrait_HOL_Wilhelmina.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_HENDRIKUS_COLJIN_DESC"
+			ideology=centrism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	HOL_izaak_reijnders={
+		name="Izaak Reijnders"
+		portraits={
+			army={
+				small="GFX_portrait_hol_izaak_reijnders_small"
+			}
+			army={
+				large="GFX_portrait_hol_izaak_reijnders"
+			}
+		}
+		field_marshal={
+			traits={ old_guard inflexible_strategist trait_reckless }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=3
+			legacy_id=980
+		}
+	}
+	HOL_petrus_wilhelmus_best={
+		name="Petrus Wilhelmus Best"
+		portraits={
+			army={
+				small="GFX_portrait_hol_petrus_wilhelmus_best_small"
+			}
+			army={
+				large="GFX_portrait_hol_petrus_wilhelmus_best"
+			}
+		}
+		corps_commander={
+			traits={ organizer skilled_staffer }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	HOL_godfried_van_voorst_tot_voorst={
+		name="Godfried van Voorst tot Voorst"
+		portraits={
+			army={
+				small="GFX_portrait_hol_godfried_van_voorst_tot_voorst_small"
+			}
+			army={
+				large="GFX_portrait_hol_godfried_van_voorst_tot_voorst"
+			}
+		}
+		corps_commander={
+			traits={ brilliant_strategist career_officer armor_officer politically_connected }
+			skill=4
+			attack_skill=3
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	HOL_johannes_theodorus_furstner={
+		name="Johannes Theodorus Furstner"
+		portraits={
+			army={
+				small="GFX_portrait_hol_johannes_theodorus_furstner_small"
+			}
+			army={
+				large="GFX_portrait_hol_johannes_theodorus_furstner"
+			}
+		}
+		navy_leader={
+			traits={ caustic_personality blockade_runner fly_swatter }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	HOL_conrad_helfrich={
+		name="Conrad Helfrich"
+		portraits={
+			army={
+				small="GFX_portrait_hol_conrad_helfrich_small"
+			}
+			army={
+				large="GFX_portrait_hol_conrad_helfrich"
+			}
+		}
+		navy_leader={
+			traits={ bold navy_career_officer seawolf superior_tactician }
+			skill=4
+			attack_skill=5
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=981
+		}
+	}
+	HOL_karel_doorman={
+		name="Karel Doorman"
+		portraits={
+			army={
+				small="GFX_portrait_hol_karel_doorman_small"
+			}
+			army={
+				large="GFX_portrait_hol_karel_doorman"
+			}
+		}
+		navy_leader={
+			traits={ bold naval_lineage fleet_protector }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	HOL_henri_winkelman={
+		name="Henri Winkelman"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/HOL/r56_portrait_HOL_Henri_Winkelman.dds"
+			}
+		}
+		field_marshal={
+			traits={ trait_cautious caring_leader defensive_doctrine unyielding_defender }
+			skill=4
+			attack_skill=2
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	HOL_herman_van_voorst_tot_voorst={
+		name="Herman van Voorst tot Voorst"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/HOL/r56_portrait_HOL_Herman_Van_Voorst_Tot_Voorst.dds"
+			}
+		}
+		corps_commander={
+			traits={ cavalry_officer }
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	HOL_jacob_harberts={
+		name="Jacob Harberts"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/HOL/r56_portrait_HOL_Jakob_Harberts.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_cautious harsh_leader }
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	HOL_pieter_gerbrandy={
+		name="Pieter Gerbrandy"
+		portraits={
+			civilian={
+				large="gfx/leaders/HOL/r56_portrait_HOL_Pieter_Gerbrandy.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_DIRK_JAN_DE_GEER_DESC"
+			ideology=conservatism
+			traits={ little_churchill }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	HOL_jan_van_andel={
+		name="Jan van Andel"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/HOL/r56_portrait_HOL_Jan_Van_Andel.dds"
+			}
+		}
+		corps_commander={
+			traits={ old_guard trait_cautious }
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	HOL_hubert_von_frijtag_drabbe={
+		name="Hubert von Frijtag Drabbe"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/HOL/r56_portrait_HOL_Hubert_von_Frijtag_Drabbe.dds"
+			}
+		}
+		corps_commander={
+			traits={ naval_invader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	HOL_willem_harmsen={
+		name="Willem Harmsen"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_europe_generic_navy_2.dds"
+			}
+			army={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
+			}
+		}
+		navy_leader={
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	HOL_hendrik_van_adrichem_boogaert={
+		name="Hendrik van Adrichem Boogaert"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_europe_generic_navy_3.dds"
+			}
+			army={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_navy_3.dds"
+			}
+		}
+		navy_leader={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	HOL_johannes_bax={
+		name="Johannes Bax"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_europe_generic_navy_1.dds"
+			}
+			army={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
+			}
+		}
+		navy_leader={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	HOL_otto_de_booy={
+		name="Otto de Booy"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_europe_generic_navy_3.dds"
+			}
+			army={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_navy_3.dds"
+			}
+		}
+		navy_leader={
+			traits={ submarine_captain }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	HOL_johannes_van_dulm={
+		name="Johannes van Dulm"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_europe_generic_navy_1.dds"
+			}
+			army={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
+			}
+		}
+		navy_leader={
+			traits={ submarine_captain }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	HOL_willem_kruys={
+		name="Willem Kruys"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_europe_generic_navy_2.dds"
+			}
+			army={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
+			}
+		}
+		navy_leader={
+			traits={ superior_tactician }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+}

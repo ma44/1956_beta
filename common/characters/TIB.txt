@@ -1,0 +1,716 @@
+characters={
+	TIB_jamphel_yeshe_gyaltsen={
+		name="Jamphel Yeshe Gyaltsen"
+		portraits={
+			civilian={
+				large="gfx/leaders/TIB/Portrait_Tibet_Jamphel_Yeshe_Gyaltsen.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_JAMPHEL_YESHE_GYALTSEN_DESC"
+			ideology=despotism
+			traits={ hedonist pacifist_isolationist }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	TIB_thubten_kunphela={
+		name="Thubten Kunphela"
+		advisor={
+			slot = political_advisor
+			idea_token = TIB_thubten_kunphela
+			allowed  = {
+					original_tag  = TIB
+				}
+				available  = {
+					has_completed_focus  = TIB_radical_reforms 
+				}
+				traits  = {
+					fascist_demagogue 
+				}
+				on_add  = {
+					country_event  = political.7
+				}
+				do_effect  = {
+					not  = {
+						has_government  = fascism 
+					}
+				}
+				ai_will_do  = {
+					factor  = 0.000
+				}
+		}
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_india_2"
+			}
+			civilian={
+				large="gfx/leaders/TIB/r56_portrait_TIB_Thubten_Kunphela.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_JAMPHEL_YESHE_GYALTSEN_DESC"
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	TIB_changra_sapron={
+		name="Changra Sapron"
+		advisor={
+			slot = army_chief
+			idea_token = TIB_changra_sapron
+			allowed  = {
+					original_tag  = TIB
+				}
+				cost  = 75.000
+				available  = {
+				}
+				traits  = {
+					army_chief_old_guard 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		portraits={
+			army={
+				small="GFX_idea_TIB_changra_sapron"
+			}
+			army={
+				large="gfx/leaders/TIB/r56_portrait_TIB_Changra_Sapron.dds"
+			}
+		}
+		field_marshal={
+			traits={ old_guard bad_staffer defensive_doctrine }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	TIB_wangchen_geleg_surkhang={
+		name="Wangchen Geleg Surkhang"
+		advisor={
+			slot = air_chief
+			idea_token = TIB_wangchen_geleg_surkhang
+			allowed  = {
+					original_tag  = TIB
+				}
+				available  = {
+					not  = {
+						has_idea  = TIB_wangchen_geleg_surkhang2 
+					}
+				}
+				traits  = {
+					air_chief_safety_2 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		portraits={
+			army={
+				small="GFX_idea_TIB_wangchen_geleg_surkhang"
+			}
+			army={
+				large="gfx/leaders/TIB/r56_portrait_TIB_generic_tibetan_general_1.dds"
+			}
+		}
+		corps_commander={
+			traits={ old_guard bad_staffer winter_specialist }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	TIB_yutok_tashi_dondrub={
+		name="Yutok Tashi Dondrub"
+		advisor={
+			slot = theorist
+			idea_token = TIB_yutok_tashi_dondrub
+			ledger  = army 
+				allowed  = {
+					original_tag  = TIB
+				}
+				available  = {
+					has_completed_focus  = TIB_army_review 
+				}
+				research_bonus  = {
+					land_doctrine  = 0.100
+				}
+				traits  = {
+					military_theorist 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		advisor={
+			slot = high_command
+			idea_token = TIB_yutok_tashi_dondrub2
+			ledger  = army 
+				allowed  = {
+					original_tag  = TIB
+				}
+				available  = {
+					has_completed_focus  = TIB_army_review 
+				}
+				traits  = {
+					army_chief_drill_2 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		portraits={
+			army={
+				small="GFX_idea_TIB_yutok_tashi_dondrub"
+			}
+			army={
+				large="gfx/leaders/TIB/r56_portrait_TIB_Yutok_Tashi_Dondrub.dds"
+			}
+		}
+		corps_commander={
+			traits={ old_guard bad_staffer winter_specialist trait_mountaineer }
+			skill=2
+			attack_skill=2
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	TIB_the_dalai_lama={
+		name="The Dalai Lama"
+		portraits={
+			civilian={
+				large="gfx/leaders/TIB/r56_portrait_TIB_Dalai_Lama.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_JAMPHEL_YESHE_GYALTSEN_DESC"
+			ideology=moderatism
+			traits={ pacifist_isolationist }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	TIB_bapa_phuntsog_wangyal={
+		name="Bapa Phuntsog Wangyal"
+		portraits={
+			civilian={
+				large="gfx/leaders/TIB/r56_portrait_TIB_Bapa_Phuntsog_Wangyal.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_JAMPHEL_YESHE_GYALTSEN_DESC"
+			ideology=stalinism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	TIB_namgang_dazang_damdu={
+		name="Namgang Dazang Damdu"
+		portraits={
+			civilian={
+				large="gfx/leaders/TIB/r56_portrait_TIB_Tsarong_Tsaza.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_JAMPHEL_YESHE_GYALTSEN_DESC"
+			ideology=conservatism
+			traits={ captain_of_industry }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	TIB_tsarong_dzasa={
+		advisor={
+			slot = political_advisor
+			idea_token = TIB_tsarong_dzasa
+			allowed  = {
+					original_tag  = TIB
+				}
+				available  = {
+					not  = {
+						has_country_flag  = tsarong_dzasa_in_power 
+					}
+				}
+				traits  = {
+					captain_of_industry 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		name="TIB_tsarong_dzasa"
+		portraits={
+			army={
+				small="GFX_idea_TIB_tsarong_dzasa"
+			}
+		}
+	}
+	TIB_ngabo_ngawang_jigme={
+		advisor={
+			slot = army_chief
+			idea_token = TIB_ngabo_ngawang_jigme
+			allowed  = {
+					original_tag  = TIB
+				}
+				traits  = {
+					army_chief_offensive_1 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		name="TIB_ngabo_ngawang_jigme"
+		portraits={
+			army={
+				small="GFX_idea_TIB_ngabo_ngawang_jigme"
+			}
+		}
+	}
+	TIB_philip_neame={
+		advisor={
+			slot = theorist
+			idea_token = TIB_philip_neame
+			ledger  = army 
+				allowed  = {
+					original_tag  = TIB
+				}
+				available  = {
+					has_completed_focus  = TIB_army_review 
+					not  = {
+						or  = {
+							has_government  = fascism 
+							has_government  = communism 
+						}
+					}
+				}
+				cost  = 250.000
+				research_bonus  = {
+					cat_grand_battle_plan  = 0.150
+				}
+				traits  = {
+					grand_battle_plan_expert 
+				}
+				ai_will_do  = {
+					factor  = 0.000
+					modifier  = {
+						has_tech  = trench_warfare 
+						add  = 1.000
+					}
+				}
+		}
+		name="TIB_philip_neame"
+		portraits={
+			army={
+				small="GFX_idea_TIB_philip_neame"
+			}
+		}
+	}
+	TIB_taring_jigme={
+		advisor={
+			slot = high_command
+			idea_token = TIB_taring_jigme
+			ledger  = army 
+				allowed  = {
+					original_tag  = TIB
+				}
+				available  = {
+					has_country_flag  = taring_jigme_military 
+					not  = {
+						has_idea  = TIB_taring_jigme2 
+					}
+				}
+				traits  = {
+					army_commando_2 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		name="TIB_taring_jigme"
+		portraits={
+			army={
+				small="GFX_idea_TIB_taring_jigme"
+			}
+		}
+	}
+	TIB_generic_air_commander={
+		advisor={
+			slot = air_chief
+			idea_token = TIB_generic_air_commander
+			allowed  = {
+					original_tag  = TIB
+				}
+				traits  = {
+					air_chief_ground_support_1 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		name="TIB_generic_air_commander"
+		portraits={
+			army={
+				small="GFX_idea_generic_air_asia_3"
+			}
+		}
+	}
+	TIB_ngabo_ngawang_jigme2={
+		advisor={
+			slot = political_advisor
+			idea_token = TIB_ngabo_ngawang_jigme2
+			allowed  = {
+					original_tag  = TIB
+				}
+				traits  = {
+					quartermaster_general 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		name="TIB_ngabo_ngawang_jigme2"
+		portraits={
+			army={
+				small="GFX_idea_TIB_ngabo_ngawang_jigme2"
+			}
+		}
+	}
+	TIB_phuntsok_wangyal={
+		advisor={
+			slot = political_advisor
+			idea_token = TIB_phuntsok_wangyal
+			allowed  = {
+					original_tag  = TIB
+				}
+				available  = {
+					has_completed_focus  = TIB_compassion_for_the_masses 
+				}
+				traits  = {
+					communist_revolutionary 
+				}
+				do_effect  = {
+					not  = {
+						has_government  = communism 
+					}
+				}
+				ai_will_do  = {
+					factor  = 0.000
+				}
+		}
+		name="TIB_phuntsok_wangyal"
+		portraits={
+			army={
+				small="GFX_idea_TIB_phuntsok_wangyal"
+			}
+		}
+	}
+	TIB_rinzin_dorji={
+		advisor={
+			slot = political_advisor
+			idea_token = TIB_rinzin_dorji
+			allowed  = {
+					original_tag  = TIB
+				}
+				traits  = {
+					war_industrialist 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		name="TIB_rinzin_dorji"
+		portraits={
+			army={
+				small="GFX_idea_TIB_rinzin_dorji"
+			}
+		}
+	}
+	TIB_navy_devisive_battle={
+		advisor={
+			slot = navy_chief
+			idea_token = TIB_navy_devisive_battle
+			allowed  = {
+					original_tag  = TIB
+				}
+				traits  = {
+					navy_chief_decisive_battle_2 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		name="TIB_navy_devisive_battle"
+		portraits={
+			army={
+				small="GFX_idea_generic_navy_asia_2"
+			}
+		}
+	}
+	TIB_basil_gould={
+		advisor={
+			slot = political_advisor
+			idea_token = TIB_basil_gould
+			allowed  = {
+					original_tag  = TIB
+				}
+				traits  = {
+					democratic_reformer 
+				}
+				do_effect  = {
+					not  = {
+						has_government  = democratic 
+					}
+				}
+				ai_will_do  = {
+					factor  = 0.000
+				}
+		}
+		name="TIB_basil_gould"
+		portraits={
+			army={
+				small="GFX_idea_TIB_basil_gould"
+			}
+		}
+	}
+	TIB_wangchen_geleg_surkhang2={
+		advisor={
+			slot = high_command
+			idea_token = TIB_wangchen_geleg_surkhang2
+			ledger  = army 
+				allowed  = {
+					original_tag  = TIB
+				}
+				available  = {
+					not  = {
+						has_idea  = TIB_wangchen_geleg_surkhang 
+					}
+				}
+				traits  = {
+					army_chief_organizational_1 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		name="TIB_wangchen_geleg_surkhang2"
+		portraits={
+			army={
+				small="GFX_idea_TIB_wangchen_geleg_surkhang2"
+			}
+		}
+	}
+	TIB_ENG_air_theorist={
+		advisor={
+			slot = theorist
+			idea_token = TIB_ENG_air_theorist
+			ledger  = air 
+				allowed  = {
+					original_tag  = TIB
+				}
+				available  = {
+					has_completed_focus  = TIB_army_review 
+					not  = {
+						or  = {
+							has_government  = fascism 
+							has_government  = communism 
+						}
+					}
+				}
+				research_bonus  = {
+					air_doctrine  = 0.100
+				}
+				traits  = {
+					air_warfare_theorist 
+				}
+				ai_will_do  = {
+					factor  = 0.250
+				}
+		}
+		name="TIB_ENG_air_theorist"
+		portraits={
+			army={
+				small="GFX_idea_generic_air_europe_2"
+			}
+		}
+	}
+	TIB_tendong_shappe={
+		advisor={
+			slot = high_command
+			idea_token = TIB_tendong_shappe
+			ledger  = army 
+				allowed  = {
+					original_tag  = TIB
+				}
+				available  = {
+				}
+				traits  = {
+					army_entrenchment_2 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		name="TIB_tendong_shappe"
+		portraits={
+			army={
+				small="GFX_idea_TIB_tendong_shappe"
+			}
+		}
+	}
+	TIB_taring_jigme_civilian={
+		advisor={
+			slot = political_advisor
+			idea_token = TIB_taring_jigme_civilian
+			allowed  = {
+					original_tag  = TIB
+				}
+				available  = {
+					has_country_flag  = taring_jigme_civilian 
+				}
+				traits  = {
+					backroom_backstabber 
+				}
+		}
+		name="TIB_taring_jigme_civilian"
+		portraits={
+			army={
+				small="GFX_idea_TIB_taring_jigme_civilian"
+			}
+		}
+	}
+	TIB_ngawang_kesang={
+		advisor={
+			slot = political_advisor
+			idea_token = TIB_ngawang_kesang
+			allowed  = {
+					original_tag  = TIB
+				}
+				available  = {
+					has_government  = communism 
+				}
+				ai_will_do  = {
+					factor  = 4.000
+				}
+				traits  = {
+					silent_workhorse 
+				}
+		}
+		name="TIB_ngawang_kesang"
+		portraits={
+			army={
+				small="GFX_idea_TIB_ngawang_kesang"
+			}
+		}
+	}
+	TIB_taring_jigme2={
+		advisor={
+			slot = army_chief
+			idea_token = TIB_taring_jigme2
+			allowed  = {
+					original_tag  = TIB
+				}
+				available  = {
+					has_country_flag  = taring_jigme_military 
+					not  = {
+						has_idea  = TIB_taring_jigme 
+					}
+				}
+				traits  = {
+					army_chief_offensive_2 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		name="TIB_taring_jigme2"
+		portraits={
+			army={
+				small="GFX_idea_TIB_taring_jigme2"
+			}
+		}
+	}
+	TIB_dorji_gyaltsen={
+		advisor={
+			slot = high_command
+			idea_token = TIB_dorji_gyaltsen
+			ledger  = army 
+				allowed  = {
+					original_tag  = TIB
+				}
+				available  = {
+				}
+				traits  = {
+					army_artillery_1 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		name="TIB_dorji_gyaltsen"
+		portraits={
+			army={
+				small="GFX_idea_TIB_dorji_gyaltsen"
+			}
+		}
+	}
+	TIB_phuntsog_rabgye={
+		advisor={
+			slot = army_chief
+			idea_token = TIB_phuntsog_rabgye
+			allowed  = {
+					original_tag  = TIB
+				}
+				available  = {
+				}
+				traits  = {
+					army_chief_defensive_1 
+				}
+				ai_will_do  = {
+					factor  = 1.000
+				}
+		}
+		name="TIB_phuntsog_rabgye"
+		portraits={
+			army={
+				small="GFX_idea_TIB_phuntsog_rabgye"
+			}
+		}
+	}
+	TIB_chikyak_khenpo_lobsang_geleg={
+		advisor={
+			slot = political_advisor
+			idea_token = TIB_chikyak_khenpo_lobsang_geleg
+			allowed  = {
+					original_tag  = TIB
+				}
+				available  = {
+					has_completed_focus  = TIB_traditional_government 
+				}
+				traits  = {
+					staunch_monarchist 
+				}
+				do_effect  = {
+					not  = {
+						has_government  = neutrality 
+					}
+				}
+		}
+		name="TIB_chikyak_khenpo_lobsang_geleg"
+		portraits={
+			army={
+				small="GFX_idea_TIB_chikyak_khenpo_lobsang_geleg"
+			}
+		}
+	}
+}

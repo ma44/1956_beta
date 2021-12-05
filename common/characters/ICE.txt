@@ -1,0 +1,492 @@
+characters={
+	ICE_hermann_jónasson={
+		name="Hermann Jónasson"
+		advisor={
+			slot = high_command
+			idea_token = ICE_hermann_jonasson
+			ledger  = army 
+				allowed  = {
+					original_tag  = ICE
+				}
+				traits  = {
+					army_entrenchment_2 
+				}
+		}
+		portraits={
+			army={
+				small="GFX_idea_generic_army_europe_6"
+			}
+			civilian={
+				large="gfx/leaders/ICE/r56_portrait_ICE_Hermann_Jonasson.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_HERMANN_JÓNASSON_DESC"
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	ICE_gísli_sigurbjörnsson={
+		name="Gísli Sigurbjörnsson"
+		portraits={
+			civilian={
+				large="gfx/leaders/ICE/r56_portrait_ICE_Gisli_Sigurbjornsson.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_GÍSLI SIGURBJÖRNSSON_DESC"
+			ideology=nazism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	ICE_brynjólfur_bjarnason={
+		name="Brynjólfur Bjarnason"
+		portraits={
+			civilian={
+				large="gfx/leaders/ICE/r56_portrait_ICE_Brynjolfur_Bjarnason.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_BRYNJÓLFUR_BJARNASON_DESC"
+			ideology=stalinism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	ICE_jón_baldvinsson={
+		name="Jón Baldvinsson"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_Britain_Generic_3.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_HERMANN_JÓNASSON_DESC"
+			ideology=moderatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	ICE_einar_arnalds={
+		name="Einar Arnalds"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_ENG_generic_land_3.dds"
+			}
+			army={
+				large="gfx/leaders/ENG/Portrait_Britain_Generic_land_3.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ICE_Ólafur_sveinsson={
+		name="Ólafur Sveinsson"
+		advisor={
+			slot = navy_chief
+			idea_token = ICE_olafur_sveinsson
+			allowed  = {
+					original_tag  = ICE
+				}
+				traits  = {
+					navy_chief_maneuver_2 
+				}
+		}
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_ENG_generic_navy_2.dds"
+			}
+			navy={
+				small="GFX_idea_generic_navy_europe_1"
+			}
+			army={
+				large="gfx/leaders/ENG/Portrait_Britain_Generic_navy_2.dds"
+			}
+		}
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	ICE_olafur_johannesson={
+		advisor={
+			slot = political_advisor
+			idea_token = ICE_olafur_johannesson
+			allowed  = {
+					original_tag  = ICE
+				}
+				traits  = {
+					backroom_backstabber 
+				}
+		}
+		name="ICE_olafur_johannesson"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_6"
+			}
+		}
+	}
+	ICE_agnar_hansen={
+		advisor={
+			slot = air_chief
+			idea_token = ICE_agnar_hansen
+			allowed  = {
+					original_tag  = ICE
+				}
+				traits  = {
+					air_chief_all_weather_2 
+				}
+		}
+		name="ICE_agnar_hansen"
+		portraits={
+			army={
+				small="GFX_idea_agnar_hansen"
+			}
+		}
+	}
+	ICE_bjorn_bordarson={
+		advisor={
+			slot = political_advisor
+			idea_token = ICE_bjorn_bordarson
+			allowed  = {
+					original_tag  = ICE
+				}
+				modifier  = {
+					stability_factor  = 0.050
+				}
+				ai_will_do  = {
+					factor  = 4.000
+				}
+				traits  = {
+					silent_workhorse 
+				}
+		}
+		name="ICE_bjorn_bordarson"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_6"
+			}
+		}
+	}
+	ICE_asgeir_asgeirsson={
+		advisor={
+			slot = political_advisor
+			idea_token = ICE_asgeir_asgeirsson
+			allowed  = {
+					original_tag  = ICE
+				}
+				traits  = {
+					smooth_talking_charmer 
+				}
+		}
+		name="ICE_asgeir_asgeirsson"
+		portraits={
+			army={
+				small="GFX_idea_asgeir_asgeirsson"
+			}
+		}
+	}
+	ICE_stefan_stefansson={
+		advisor={
+			slot = political_advisor
+			idea_token = ICE_stefan_stefansson
+			allowed  = {
+					original_tag  = ICE
+				}
+				traits  = {
+					democratic_reformer 
+				}
+				do_effect  = {
+					not  = {
+						has_government  = democratic 
+					}
+				}
+				ai_will_do  = {
+					factor  = 0.000
+				}
+		}
+		name="ICE_stefan_stefansson"
+		portraits={
+			army={
+				small="GFX_idea_stefan_stefansson"
+			}
+		}
+	}
+	ICE_eysteinn_jonsson={
+		advisor={
+			slot = navy_chief
+			idea_token = ICE_eysteinn_jonsson
+			allowed  = {
+					original_tag  = ICE
+				}
+				traits  = {
+					navy_chief_reform_3 
+				}
+		}
+		name="ICE_eysteinn_jonsson"
+		portraits={
+			army={
+				small="GFX_idea_generic_navy_europe_2"
+			}
+		}
+	}
+	ICE_richard_thors={
+		advisor={
+			slot = high_command
+			idea_token = ICE_richard_thors
+			ledger  = navy 
+				allowed  = {
+					original_tag  = ICE
+				}
+				traits  = {
+					navy_fleet_logistics_1 
+				}
+		}
+		name="ICE_richard_thors"
+		portraits={
+			army={
+				small="GFX_idea_generic_navy_europe_2"
+			}
+		}
+	}
+	ICE_bjorn_olafsson={
+		advisor={
+			slot = political_advisor
+			idea_token = ICE_bjorn_olafsson
+			allowed  = {
+					original_tag  = ICE
+				}
+				traits  = {
+					captain_of_industry 
+				}
+		}
+		name="ICE_bjorn_olafsson"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_3"
+			}
+		}
+	}
+	ICE_eidur_kvaran={
+		advisor={
+			slot = political_advisor
+			idea_token = ICE_eidur_kvaran
+			allowed  = {
+					original_tag  = ICE
+				}
+				traits  = {
+					fascist_demagogue 
+				}
+				do_effect  = {
+					not  = {
+						has_government  = fascism 
+					}
+				}
+				ai_will_do  = {
+					factor  = 0.000
+				}
+		}
+		name="ICE_eidur_kvaran"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_5"
+			}
+		}
+	}
+	ICE_borsteinn_jonsson={
+		advisor={
+			slot = air_chief
+			idea_token = ICE_borsteinn_jonsson
+			allowed  = {
+					original_tag  = ICE
+				}
+				traits  = {
+					air_air_combat_training_3 
+				}
+		}
+		name="ICE_borsteinn_jonsson"
+		portraits={
+			army={
+				small="GFX_idea_generic_air_europe_1"
+			}
+		}
+	}
+	ICE_magnus_jonsson={
+		advisor={
+			slot = political_advisor
+			idea_token = ICE_magnus_jonsson
+			allowed  = {
+					original_tag  = ICE
+				}
+				traits  = {
+					neutrality_advocate 
+				}
+		}
+		name="ICE_magnus_jonsson"
+		portraits={
+			army={
+				small="GFX_idea_james_chadwick"
+			}
+		}
+	}
+	ICE_thor_jensen={
+		advisor={
+			slot = high_command
+			idea_token = ICE_thor_jensen
+			ledger  = navy 
+				allowed  = {
+					original_tag  = ICE
+				}
+				traits  = {
+					navy_chief_commerce_raiding_1 
+				}
+		}
+		name="ICE_thor_jensen"
+		portraits={
+			army={
+				small="GFX_idea_generic_navy_europe_3"
+			}
+		}
+	}
+	ICE_olafur_thors={
+		advisor={
+			slot = theorist
+			idea_token = ICE_olafur_thors
+			ledger  = navy 
+				allowed  = {
+					original_tag  = ICE
+				}
+				research_bonus  = {
+					naval_doctrine  = 0.100
+				}
+				traits  = {
+					naval_theorist 
+				}
+		}
+		name="ICE_olafur_thors"
+		portraits={
+			army={
+				small="GFX_idea_olafur_thors"
+			}
+		}
+	}
+	ICE_johannes_snorrason={
+		advisor={
+			slot = high_command
+			idea_token = ICE_johannes_snorrason
+			ledger  = air 
+				allowed  = {
+					original_tag  = ICE
+				}
+				traits  = {
+					air_air_superiority_2 
+				}
+		}
+		name="ICE_johannes_snorrason"
+		portraits={
+			army={
+				small="GFX_idea_generic_air_europe_3"
+			}
+		}
+	}
+	ICE_agnar_hansen_theory={
+		advisor={
+			slot = theorist
+			idea_token = ICE_agnar_hansen_theory
+			ledger  = army 
+				allowed  = {
+					original_tag  = ICE
+				}
+				research_bonus  = {
+					land_doctrine  = 0.100
+				}
+				traits  = {
+					military_theorist 
+				}
+		}
+		name="ICE_agnar_hansen_theory"
+		portraits={
+			army={
+				small="GFX_idea_agnar_hansen"
+			}
+		}
+	}
+	ICE_erling_ellingsen={
+		advisor={
+			slot = theorist
+			idea_token = ICE_erling_ellingsen
+			ledger  = air 
+				allowed  = {
+					original_tag  = ICE
+				}
+				research_bonus  = {
+					air_doctrine  = 0.100
+				}
+				traits  = {
+					air_warfare_theorist 
+				}
+		}
+		name="ICE_erling_ellingsen"
+		portraits={
+			army={
+				small="GFX_idea_generic_air_europe_1"
+			}
+		}
+	}
+	ICE_einar_olgeirsson={
+		advisor={
+			slot = political_advisor
+			idea_token = ICE_einar_olgeirsson
+			allowed  = {
+					original_tag  = ICE
+				}
+				traits  = {
+					communist_revolutionary 
+				}
+				do_effect  = {
+					not  = {
+						has_government  = communism 
+					}
+				}
+				ai_will_do  = {
+					factor  = 0.000
+				}
+		}
+		name="ICE_einar_olgeirsson"
+		portraits={
+			army={
+				small="GFX_idea_generic_political_advisor_europe_4"
+			}
+		}
+	}
+	ICE_bjorn_bjornsson={
+		advisor={
+			slot = army_chief
+			idea_token = ICE_bjorn_bjornsson
+			allowed  = {
+					original_tag  = ICE
+				}
+				traits  = {
+					army_commando_2 
+				}
+		}
+		name="ICE_bjorn_bjornsson"
+		portraits={
+			army={
+				small="GFX_idea_generic_army_europe_1"
+			}
+		}
+	}
+}

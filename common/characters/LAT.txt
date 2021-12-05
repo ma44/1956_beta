@@ -1,0 +1,56 @@
+characters={
+	LAT_gustavs_celmins={
+		name="Gustavs Celmins"
+		portraits={
+			civilian={
+				large="gfx/leaders/LAT/r56_portrait_LAT_Gustavs_Celmins.dds"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			traits={ fascist_militia_leader }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	LAT_oto_grosbarts={
+		name="Oto Grosbarts"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/LAT/r56_portrait_LAT_Grosbarts_Oto.dds"
+			}
+		}
+		corps_commander={
+			traits={ armor_officer }
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	LAT_nikolajs_dūze={
+		name="Nikolajs Dūze"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/LAT/r56_portrait_LAT_Nikolajs_Duze.dds"
+			}
+		}
+		corps_commander={
+			traits={ homeland_connoisseur }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+}

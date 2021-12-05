@@ -1,0 +1,60 @@
+characters={
+	AST_joseph_lyons={
+		name="Joseph Lyons"
+		portraits={
+			civilian={
+				large="gfx/leaders/AST/r56_portrait_AST_Joseph_Lyons.dds"
+			}
+		}
+		country_leader={
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	AST_jack_miles={
+		name="Jack Miles"
+		portraits={
+			civilian={
+				large="gfx/leaders/AST/r56_portrait_AST_JB_Miles.dds"
+			}
+		}
+		country_leader={
+			ideology=stalinism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	AST_isaac_isaacs={
+		name="Isaac Isaacs"
+		portraits={
+			civilian={
+				large="gfx/leaders/AST/r56_portrait_AST_Isaac_Isaacs.dds"
+			}
+		}
+		country_leader={
+			ideology=centrism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	AST_hector_waller={
+		name="Hector Waller"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_europe_generic_navy_3.dds"
+			}
+			army={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_navy_3.dds"
+			}
+		}
+		navy_leader={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+}

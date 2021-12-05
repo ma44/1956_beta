@@ -1,0 +1,55 @@
+characters={
+	EST_karl_säre={
+		name="Karl Säre"
+		portraits={
+			civilian={
+				large="gfx/leaders/EST/r56_portrait_EST_Karl_Sare.dds"
+			}
+		}
+		country_leader={
+			ideology=stalinism
+			expire="1967.1.1.1"
+			id=-1
+		}
+	}
+	EST_gustav_jonson={
+		name="Gustav Jonson"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/EST/r56_portrait_EST_Gustav_Jonson.dds"
+			}
+		}
+		corps_commander={
+			traits={ cavalry_officer winter_specialist }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=299
+		}
+	}
+	EST_hermann_salza={
+		name="Hermann Salza"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/EST/r56_portrait_EST_Hermann_Salza.dds"
+			}
+		}
+		navy_leader={
+			traits={ gentlemanly seawolf }
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+}

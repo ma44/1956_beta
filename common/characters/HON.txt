@@ -1,0 +1,129 @@
+characters={
+	HON_tiburcio_carías_andino={
+		name="Tiburcio Carías Andino"
+		portraits={
+			civilian={
+				large="GFX_portrait_honduras_portrait_tiburcio_carias_andino"
+			}
+		}
+		field_marshal={
+			traits={ old_guard politically_connected }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=6062
+		}
+		country_leader={
+			desc="POLITICS_TIBURCIO_CARIAS_ANDINO_DESC"
+			ideology=oligarchic_democracy
+			traits={ nationalistic_tendencies army_connections }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	HON_mateo_ortega={
+		name="Mateo Ortega"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/HON/kr_portrait_hon_generic_land_standin_1.dds"
+			}
+		}
+		corps_commander={
+			traits={ jungle_rat }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	HON_rigoberto_padilla_rush={
+		name="Rigoberto Padilla Rush"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/Portrait_South_America_Generic_1.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_PADILLA_DESC"
+			ideology=marxism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	HON_samuel_zemurray={
+		name="Samuel Zemurray"
+		portraits={
+			civilian={
+				large="gfx/leaders/HON/r56_portrait_HON_Sammuel_Zemurray.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_ZEMURRAY_DESC"
+			ideology=fascism_ideology
+			traits={ all_business r56_trait_opposed_to_communism }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	HON_abel_villanueva_villacorta={
+		name="Abel Villanueva Villacorta"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/HON/r56_portrait_HON_Abel_Villanueva_Villacorta.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_cautious }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	HON_williams_calderon={
+		name="Williams Calderon"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/HON/kr_portrait_hon_generic_navy_standin_1.dds"
+			}
+		}
+		navy_leader={
+			traits={ bold }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	HON_basilio_montes={
+		name="Basilio Montes"
+		portraits={
+			civilian={
+				large="GFX_Portrait_South_America_Generic_3"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={ undecided }
+			expire="1947.1.1.12"
+			id=-1
+		}
+	}
+}

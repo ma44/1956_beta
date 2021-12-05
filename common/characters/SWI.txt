@@ -1,0 +1,132 @@
+characters={
+	SWI_federal_council={
+		name="Federal Council"
+		portraits={
+			civilian={
+				large="gfx/leaders/SWI/Portrait_Switzerland_Federal_council.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_FEDERAL_COUNCIL_DESC"
+			ideology=centrism_democratic
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_FEDERAL_COUNCIL_DESC"
+			ideology=centrism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	SWI_fritz_platten={
+		name="Fritz Platten"
+		portraits={
+			civilian={
+				large="gfx/leaders/SWI/r56_portrait_SWI_Fritz_Platten.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_FRITZ_PLATTEN_DESC"
+			ideology=leninism
+			traits={ POL_Heavy_Industry_Emphasis }
+			expire="1965.1.1.1"
+			id=21003
+		}
+	}
+	SWI_wilhelm_gustloff={
+		name="Wilhelm Gustloff"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_WILHELM_GUSTLOFF_DESC"
+			ideology=nazism
+			traits={ likes_germany }
+			expire="1965.1.1.1"
+			id=20000
+		}
+	}
+	SWI_renzo_lardelli={
+		name="Renzo Lardelli"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/SWI/r56_portrait_SWI_Renzo_Lardelli.dds"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	SWI_friedrich_prisi={
+		name="Friedrich Prisi"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/SWI/r56_Portrait_SWI_Friedrich_Prisi.dds"
+			}
+		}
+		corps_commander={
+			traits={ old_guard }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	SWI_rudolf_miescher={
+		name="Rudolf Miescher"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/SWI/Portrait_SWI_Generic_land_3.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_mountaineer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	SWI_jakob_labhardt={
+		name="Jakob Labhardt"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/SWI/r56_portrait_SWI_Jakob_Labhardt.dds"
+			}
+		}
+		corps_commander={
+			traits={ career_officer armor_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+}

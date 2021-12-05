@@ -1,0 +1,42 @@
+characters={
+	LIT_jonas_Černius={
+		name="Jonas Černius"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/LIT/r56_portrait_LIT_Jonas_Cernius.dds"
+			}
+		}
+		corps_commander={
+			traits={ meticulous trait_engineer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=6503
+		}
+	}
+	LIT_vincas_vitkauskas={
+		name="Vincas Vitkauskas"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/LIT/r56_portrait_LIT_Vincas_Vitkauskas.dds"
+			}
+		}
+		corps_commander={
+			traits={ career_officer homeland_connoisseur ranger }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=3
+			legacy_id=6504
+		}
+	}
+}

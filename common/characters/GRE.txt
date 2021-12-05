@@ -1,0 +1,355 @@
+characters={
+	GRE_konstantinos_demertzis={
+		name="Konstantinos Demertzis"
+		portraits={
+			civilian={
+				large="gfx/leaders/GRE/r56_portrait_GRE_Konstantinos_Demertzis.dds"
+			}
+		}
+		country_leader={
+			desc=" "
+			ideology=centrism
+			traits={ monarchist_puppet }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	GRE_nikos_zachariadis={
+		name="Nikos Zachariadis"
+		portraits={
+			civilian={
+				large="gfx/leaders/GRE/Portrait_Greece_Nikos_Zachariadis.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_NIKOS_ZACHARIADIS_DESC"
+			ideology=marxism
+			traits={ reluctant_stalinist r56_trait_opposed_to_fascism }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	GRE_charalambos_katsimitros={
+		name="Charalambos Katsimitros"
+		portraits={
+			army={
+				small="GFX_portrait_gre_charalambos_katsimitros_small"
+			}
+			army={
+				large="GFX_portrait_gre_charalambos_katsimitros"
+			}
+		}
+		corps_commander={
+			traits={ inflexible_strategist trait_cautious war_hero trait_GRE_stauch_monarchist trickster trait_mountaineer }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=304
+		}
+	}
+	GRE_markos_drakos={
+		name="Markos Drakos"
+		portraits={
+			army={
+				small="GFX_portrait_gre_markos_drakos_small"
+			}
+			army={
+				large="GFX_portrait_gre_markos_drakos"
+			}
+		}
+		corps_commander={
+			traits={ career_officer infantry_officer trickster trait_mountaineer }
+			skill=3
+			attack_skill=1
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=306
+		}
+	}
+	GRE_dimitrios_oikonomou={
+		name="Dimitrios Oikonomou"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/GRE/r56_portrait_GRE_Dimitrios_Oikonomou.dds"
+			}
+		}
+		navy_leader={
+			traits={ bold blockade_runner }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	GRE_alexandros_sakellariou={
+		name="Alexandros Sakellariou"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_europe_generic_navy_4.dds"
+			}
+			army={
+				large="gfx/leaders/Europe/portrait_europe_generic_navy_4.dds"
+			}
+		}
+		navy_leader={
+			traits={ media_personality bold caustic_personality fleet_protector }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	GRE_alexandros_papagos={
+		name="Alexandros Papagos"
+		portraits={
+			army={
+				small="GFX_portrait_gre_alexandros_papagos_small"
+			}
+			army={
+				large="GFX_portrait_gre_alexandros_papagos"
+			}
+		}
+		field_marshal={
+			traits={ old_guard inflexible_strategist career_officer war_hero trait_GRE_stauch_monarchist trait_mountaineer }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=300
+		}
+	}
+	GRE_petros_voulgaris={
+		name="Petros Voulgaris"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/GRE/r56_portrait_GRE_Petros_Voulgaris.dds"
+			}
+		}
+		navy_leader={
+			traits={ seawolf blockade_runner spotter }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	GRE_eleftherios_venizelos={
+		name="Eleftherios Venizelos"
+		portraits={
+			civilian={
+				large="GFX_portrait_gre_eleftherios_venizelos"
+			}
+		}
+		country_leader={
+			desc="POLITICS_ELEFTHERIOS_VENIZELOS_DESC"
+			ideology=liberalism
+			traits={ ethnarch }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	GRE_georgios_tsolakoglou={
+		name="Georgios Tsolakoglou"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/GRE/r56_portrait_GRE_Georgios_Tsolakoglou.dds"
+			}
+		}
+		corps_commander={
+			traits={ career_officer trait_cautious war_hero }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=75003
+		}
+	}
+	GRE_georgios_kosmas={
+		name="Georgios Kosmas"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/GRE/r56_portrait_GRE_Georgios_Kosmas.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_cautious homeland_connoisseur }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=75005
+		}
+	}
+	GRE_georgios_merkouris={
+		name="Georgios Merkouris"
+		portraits={
+			civilian={
+				large="gfx/leaders/GRE/r56_portrait_GRE_Georgios_Merkouris.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_GEORGIOS_KOSMIDIS_DESC"
+			ideology=nazism
+			traits={ polemarch likes_turkey r56_trait_opposed_to_communism }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	GRE_ioannis_toumbas={
+		name="Ioannis Toumbas"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/GRE/r56_portrait_GRE_Ioannis_Toumbas.dds"
+			}
+		}
+		navy_leader={
+			traits={ spotter destroyer_leader }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	GRE_georgios_stanotas={
+		name="Georgios Stanotas"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/GRE/r56_portrait_GRE_georgios_stanotas.dds"
+			}
+		}
+		corps_commander={
+			traits={ ranger cavalry_expert }
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=75011
+		}
+	}
+	GRE_ioannis_pitsikas={
+		name="Ioannis Pitsikas"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/GRE/r56_portrait_GRE_ioannis_pitsikas.dds"
+			}
+		}
+		corps_commander={
+			traits={ career_officer infantry_officer }
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=75001
+		}
+	}
+	GRE_ioannis_kotoulas={
+		name="Ioannis Kotoulas"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/GRE/r56_portrait_GRE_Ioannis_Kotoulas.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_cautious }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=75006
+		}
+	}
+	GRE_konstantinos_bakopoulos={
+		name="Konstantinos Bakopoulos"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/GRE/r56_portrait_GRE_Konstantinos_Bakopoulos.dds"
+			}
+		}
+		corps_commander={
+			traits={ old_guard }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=75007
+		}
+	}
+	GRE_konstantinos_davakis={
+		name="Konstantinos Davakis"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/GRE/r56_portrait_GRE_Konstantinos_Davakis.dds"
+			}
+		}
+		corps_commander={
+			traits={ cavalry_officer decided_planner trickster hill_fighter }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=75008
+		}
+	}
+	GRE_charilaos_charalambis={
+		name="Charilaos Charalambis"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_Britain_Generic_3.dds"
+			}
+		}
+		country_leader={
+			ideology=centrism
+			expire="1953.1.1.12"
+			id=-1
+		}
+	}
+}

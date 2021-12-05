@@ -1,0 +1,147 @@
+characters={
+	GUA_jorge_ubico={
+		name="Jorge Ubico"
+		portraits={
+			civilian={
+				large="GFX_portrait_guatemala_jorge_ubico"
+			}
+		}
+		country_leader={
+			desc="POLITICS_JORGE_UBICO_DESC"
+			ideology=despotism
+			traits={ nationalistic_tendencies }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	GUA_miguel_ydigoras_fuentes={
+		name="Miguel Ydigoras Fuentes"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/GUA/r56_portrait_GUA_miguel_ydigoras_fuentes.dds"
+			}
+		}
+		corps_commander={
+			traits={ politically_connected ranger }
+			skill=2
+			attack_skill=2
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	GUA_juan_josé_arévalo={
+		name="Juan José Arévalo"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUA/r56_portrait_GUA_Juan_Jose_Arevalo_Bermejo.dds"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	GUA_antonio_obando_sánchez={
+		name="Antonio Obando Sánchez"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUA/r56_portrait_GUA_Antonio_Obando_Sanchez.dds"
+			}
+		}
+		country_leader={
+			ideology=leninism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	GUA_jorge_ubico_castañeda={
+		name="Jorge Ubico Castañeda"
+		portraits={
+			civilian={
+				large="gfx/leaders/GUA/r56_portrait_GUA_Jorge_Ubico.dds"
+			}
+		}
+		field_marshal={
+			traits={ infantry_officer politically_connected }
+			skill=4
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+		country_leader={
+			desc="POLITICS_JORGE_UBICO_DESC"
+			ideology=rexism
+			traits={ GUA_napoleon fascist_militia_leader }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	GUA_jacobo_Árbenz={
+		name="Jacobo Árbenz"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/GUA/r56_portrait_GUA_jacobo_arbenz.dds"
+			}
+		}
+		corps_commander={
+			traits={ career_officer decided_planner }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	GUA_juan_federico_ponce={
+		name="Juan Federico Ponce"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/GUA/r56_Portrait_GUA_Juan_Federico_Ponce.dds"
+			}
+		}
+		corps_commander={
+			traits={ politically_connected }
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	GUA_josé_victor_mejía={
+		name="José Victor Mejía"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/GUA/r56_Portrait_GUA_Jose_Victor_Mejía.dds"
+			}
+		}
+		corps_commander={
+			traits={ air_force_ties }
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+}

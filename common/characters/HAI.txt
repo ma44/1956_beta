@@ -1,0 +1,119 @@
+characters={
+	HAI_sténio_vincent={
+		name="Sténio Vincent"
+		portraits={
+			civilian={
+				large="GFX_portrait_haiti_stenio_vincent"
+			}
+		}
+		country_leader={
+			desc="POLITICS_STENIO_VINCENT_DESC"
+			ideology=oligarchic_democracy
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	HAI_jacques_roumain={
+		name="Jacques Roumain"
+		portraits={
+			civilian={
+				large="gfx/leaders/HAI/r56_Portrait_HAI_Jacques_Romain.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_JACQUES_ROUMAIN_DESC"
+			ideology=marxism
+			traits={ veteran_communist }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	HAI_paul_magloire={
+		name="Paul Magloire"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_africa_generic_land_1.dds"
+			}
+			army={
+				large="gfx/leaders/Africa/Portrait_Africa_Generic_land_1.dds"
+			}
+		}
+		corps_commander={
+			traits={ career_officer lucky }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	HAI_franck_lavaud={
+		name="Franck Lavaud"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/r56_generic/r56_portrait_generic_general_africa_1.dds"
+			}
+		}
+		field_marshal={
+			traits={ infantry_officer politically_connected }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	HAI_antoine_levelt={
+		name="Antoine Levelt"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_africa_generic_land_2.dds"
+			}
+			army={
+				large="gfx/leaders/Africa/Portrait_Africa_Generic_land_2.dds"
+			}
+		}
+		corps_commander={
+			traits={ vigorous }
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	HAI_françois_duvalier={
+		name="François Duvalier"
+		portraits={
+			civilian={
+				large="gfx/leaders/HAI/r56_Portrait_HAI_François_Duvalier.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_FRANÇOIS_DUVALIER_DESC"
+			ideology=rexism
+			traits={ fascist_militia_leader }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	HAI_alexis_lhérisson={
+		name="Alexis Lhérisson"
+		portraits={
+			civilian={
+				large="gfx/leaders/r56_generic/r56_portrait_generic_general_africa_1.dds"
+			}
+		}
+		country_leader={
+			ideology=moderatism
+			expire="1952.1.1.12"
+			id=-1
+		}
+	}
+}

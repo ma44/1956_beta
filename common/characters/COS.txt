@@ -1,0 +1,96 @@
+characters={
+	COS_ricardo_jiménez_oreamuno={
+		name="Ricardo Jiménez Oreamuno"
+		portraits={
+			civilian={
+				large="GFX_portrait_costa_rica_ricardo_jiminez_oreamuno"
+			}
+		}
+		country_leader={
+			desc="POLITICS_RICARDO_JIMENEZ_OREAMUNO_DESC"
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	COS_manuel_mora_valverde={
+		name="Manuel Mora Valverde"
+		portraits={
+			civilian={
+				large="gfx/leaders/COS/r56_Portrait_COS_Manuel_Mora_Valverde.dds"
+			}
+		}
+		country_leader={
+			ideology=leninism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	COS_rafael_Ángel_calderón={
+		name="Rafael Ángel Calderón"
+		portraits={
+			civilian={
+				large="gfx/leaders/COS/r56_portrait_COS_rafael_angel_calderon.dds"
+			}
+		}
+		country_leader={
+			ideology=moderatism
+			traits={ popular_figurehead2 }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	COS_herbert_knöhr={
+		name="Herbert Knöhr"
+		portraits={
+			civilian={
+				large="gfx/leaders/GER/Portrait_Germany_Generic_3.dds"
+			}
+		}
+		country_leader={
+			ideology=nazism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	COS_ricardo_fernández_peralta={
+		name="Ricardo Fernández Peralta"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/COS/r56_portrait_COS_Ricardo_Fernández_Peralta.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	COS_rené_picado_michalski={
+		name="René Picado Michalski"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_south_america_generic_land_5.dds"
+			}
+			army={
+				large="gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
+			}
+		}
+		corps_commander={
+			traits={ politically_connected }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+}

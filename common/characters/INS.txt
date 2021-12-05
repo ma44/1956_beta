@@ -1,0 +1,135 @@
+characters={
+	INS_sukarno={
+		name="Sukarno"
+		portraits={
+			civilian={
+				large="gfx/leaders/INS/r56_portrait_INS_Sukarno.dds"
+			}
+		}
+		country_leader={
+			ideology=marhaenism_f
+			traits={ nationalist_uniter }
+			expire="1970.6.6.1"
+			id=-1
+		}
+	}
+	INS_amir_sjarifuddin_harahap={
+		name="Amir Sjarifuddin Harahap"
+		portraits={
+			civilian={
+				large="gfx/leaders/INS/r56_portrait_INS_Amir_Sjarifuddin_Harahap.dds"
+			}
+		}
+		country_leader={
+			ideology=marxism
+			traits={ committed_revolutionary }
+			expire="1953.3.1.1"
+			id=-1
+		}
+	}
+	INS_hein_ter_poorten={
+		name="Hein ter Poorten"
+		portraits={
+			army={
+				small="GFX_portrait_hol_hein_ter_poorten_small"
+			}
+			army={
+				large="GFX_portrait_hol_hein_ter_poorten"
+			}
+		}
+		field_marshal={
+			traits={ logistics_wizard inspirational_leader }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	INS_simon_hendrik_spoor={
+		name="Simon Hendrik Spoor"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/INS/r56_portrait_INS_Simon_Hendrik_Spoor.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	INS_hasjim_asyari={
+		name="Hasjim Asy'ari"
+		portraits={
+			civilian={
+				large="gfx/leaders/INS/r56_portrait_INS_Hasyim_Asyari.dds"
+			}
+		}
+		country_leader={
+			ideology=islamic_democracy
+			expire="1953.3.1.1"
+			id=-1
+		}
+		country_leader={
+			ideology=centrism
+			expire="1953.3.1.1"
+			id=-1
+		}
+	}
+	INS_a._t._van_starkenborgh_stachouwer={
+		name="A. T. van Starkenborgh Stachouwer"
+		portraits={
+			civilian={
+				large="GFX_portrait_indonesia_at_van_starkenborgh"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={ stout_defender r56_trait_opposed_to_communism }
+			expire="1953.3.1.1"
+			id=-1
+		}
+	}
+	INS_bonifacius_cornelis_de_jonge={
+		name="Bonifacius Cornelis de Jonge"
+		portraits={
+			civilian={
+				large="gfx/leaders/INS/r56_portrait_INS_Cornelis_De_Jonge.dds"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={ committed_colonialist r56_trait_opposed_to_communism }
+			expire="1936.9.16.1"
+			id=-1
+		}
+	}
+	INS_pieter_koenraad={
+		name="Pieter Koenraad"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_europe_generic_navy_3.dds"
+			}
+			army={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_navy_3.dds"
+			}
+		}
+		navy_leader={
+			traits={ fleet_protector }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+}

@@ -1,0 +1,361 @@
+characters={
+	ROM_gheorghe_tatarescu={
+		name="Gheorghe Tatarescu"
+		portraits={
+			civilian={
+				large="gfx/leaders/ROM/Portrait_Romania_Gheorghe_Tatarescu.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_GHEORGHE_TATARESCU_DESC"
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	ROM_constantin_ion_parhon={
+		name="Constantin Ion Parhon"
+		portraits={
+			civilian={
+				large="gfx/leaders/ROM/Portrait_Romania_Constantin_Parhon.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_CONSTANTIN_PARHON_DESC"
+			ideology=leninism
+			traits={ ideological_groupie }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	ROM_armand_calinescu={
+		name="Armand Calinescu"
+		portraits={
+			civilian={
+				large="gfx/leaders/ROM/Portrait_Romania_Armand_Calinescu.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_ARMAND_CALINESCU_DESC"
+			ideology=centrism
+			traits={ r56_trait_opposed_to_communism }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	ROM_octavian_goga={
+		name="Octavian Goga"
+		portraits={
+			civilian={
+				large="gfx/leaders/ROM/Portrait_Romania_Octavian_Goga.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_OCTAVIAN_GOGA_DESC"
+			ideology=fascism_ideology
+			traits={ r56_trait_opposed_to_communism }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	ROM_petre_dumitrescu={
+		name="Petre Dumitrescu"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ROM/r56_portrait_ROM_Petre_Dumitrescu.dds"
+			}
+		}
+		field_marshal={
+			traits={ logistics_wizard offensive_doctrine }
+			skill=4
+			attack_skill=4
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=5626
+		}
+	}
+	ROM_ioan_mihail_racovita={
+		name="Ioan Mihail Racovita"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ROM/r56_portrait_ROM_Ioan_Mihail_Racovita.dds"
+			}
+		}
+		corps_commander={
+			traits={ cavalry_leader hill_fighter }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=5628
+		}
+	}
+	ROM_ion_antonescu={
+		name="Ion Antonescu"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_ROM_ion_antonescu.dds"
+			}
+			army={
+				large="gfx/leaders/ROM/Portrait_Romania_Ion_Antonescu.dds"
+			}
+		}
+		field_marshal={
+			traits={ offensive_doctrine }
+			skill=4
+			attack_skill=4
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=5627
+		}
+	}
+	ROM_horia_macellariu={
+		name="Horia Macellariu"
+		portraits={
+			army={
+				small="GFX_Portrait_romania_horia_macellariu_small"
+			}
+			army={
+				large="GFX_Portrait_romania_horia_macellariu"
+			}
+		}
+		navy_leader={
+			traits={ gentlemanly fleet_protector spotter }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=5637
+		}
+	}
+	ROM_gheorghe_avramescu={
+		name="Gheorghe Avramescu"
+		portraits={
+			army={
+				small="GFX_Portrait_romania_gheorghe_avramescu_small"
+			}
+			army={
+				large="GFX_Portrait_romania_gheorghe_avramescu"
+			}
+		}
+		corps_commander={
+			traits={ caring_leader trait_mountaineer }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=5629
+		}
+	}
+	ROM_gheorghe_manoliu={
+		name="Gheorghe Manoliu"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ROM/r56_portrait_ROM_Gheorghe_Manoliu.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_mountaineer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=5630
+		}
+	}
+	ROM_vasile_atanasiu={
+		name="Vasile Atanasiu"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ROM/r56_portrait_ROM_Vasile_Atanasiu.dds"
+			}
+		}
+		corps_commander={
+			traits={ artillerist }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=5631
+		}
+	}
+	ROM_constantin_constantinescu={
+		name="Constantin Constantinescu"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ROM/r56_portrait_ROM_Constantin_Constantinescu.dds"
+			}
+		}
+		corps_commander={
+			traits={ decided_planner inspirational_leader }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=5632
+		}
+	}
+	ROM_corneliu_dragalina={
+		name="Corneliu Dragalina"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ROM/r56_portrait_ROM_Corneliu_Dragalina.dds"
+			}
+		}
+		corps_commander={
+			traits={ brilliant_strategist cavalry_officer }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=5633
+		}
+	}
+	ROM_corneliu_teodorini={
+		name="Corneliu Teodorini"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ROM/r56_portrait_ROM_Corneliu_Teodorini.dds"
+			}
+		}
+		corps_commander={
+			traits={ career_officer trait_cautious }
+			skill=3
+			attack_skill=2
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=5634
+		}
+	}
+	ROM_dumitru_damaceanu={
+		name="Dumitru Damaceanu"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ROM/r56_portrait_ROM_Dumitru_Damaceanu.dds"
+			}
+		}
+		corps_commander={
+			traits={ cavalry_officer homeland_connoisseur }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=5635
+		}
+	}
+	ROM_iosif_iacobici={
+		name="Iosif Iacobici"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ROM/r56_portrait_ROM_Iosif_Iacobici.dds"
+			}
+		}
+		field_marshal={
+			traits={ career_officer organizer }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=5636
+		}
+	}
+	ROM_ioan_dumitrache={
+		name="Ioan Dumitrache"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ROM/r56_portrait_ROM_Ioan_Dumitrache.dds"
+			}
+		}
+		corps_commander={
+			traits={ promising }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ROM_constantin_costăchescu={
+		name="Constantin Costăchescu"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_europe_generic_navy_2.dds"
+			}
+			army={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
+			}
+		}
+		navy_leader={
+			traits={ submarine_captain }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=5638
+		}
+	}
+	ROM_horia_popovici={
+		name="Horia Popovici"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_FRA_generic_navy_3.dds"
+			}
+			army={
+				large="gfx/leaders/FRA/Portrait_France_Generic_navy_3.dds"
+			}
+		}
+		navy_leader={
+			traits={ lancer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=5639
+		}
+	}
+}

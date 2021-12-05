@@ -1,0 +1,356 @@
+characters={
+	SOV_joseph_stalin={
+		name="Joseph Stalin"
+		portraits={
+			civilian={
+				large="gfx/leaders/SOV/r56_portrait_SOV_Joseph_Stalin.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_JOSEPH_STALIN_DESC"
+			ideology=stalinism
+			traits={ sov_man_of_steel }
+			expire="1953.3.1.1"
+			id=-1
+		}
+	}
+	SOV_konstantin_rodzaevsky={
+		name="Konstantin Rodzaevsky"
+		portraits={
+			civilian={
+				large="gfx/leaders/SOV/r56_portrait_SOV_Konstantin_Rodzaevsky.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_KONSTANTIN_RODZAEVSKY_DESC"
+			ideology=fascism_ideology
+			expire="1953.3.1.1"
+			id=-1
+		}
+	}
+	SOV_alexander_fyodorovich_kerensky={
+		name="Alexander Fyodorovich Kerensky"
+		portraits={
+			civilian={
+				large="gfx/leaders/SOV/r56_portrait_SOV_Alexander_Kerensky.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_ALEXANDER_FYODOROVICH_KERENSKY_DESC"
+			ideology=socialism
+			expire="1953.3.1.1"
+			id=-1
+		}
+	}
+	SOV_victor_baydalakov={
+		name="Victor Baydalakov"
+		portraits={
+			civilian={
+				large="gfx/leaders/SOV/Portrait_Soviet_Victor_Baydalakov.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_ALEXANDER_FYODOROVICH_KERENSKY_DESC"
+			ideology=oligarchism
+			expire="1953.3.1.1"
+			id=-1
+		}
+	}
+	SOV_nikolai_vatutin={
+		name="Nikolai Vatutin"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_SOV_nikolai_fyodorovich_vatutin.dds"
+			}
+			army={
+				large="gfx/leaders/SOV/Portrait_Soviet_Nikolai_Fyodorovich_Vatutin.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_reckless infantry_officer }
+			skill=3
+			attack_skill=1
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	SOV_georgiy_zakharov={
+		name="Georgiy Zakharov"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_SOV_georgiy_zakharov.dds"
+			}
+			army={
+				large="gfx/leaders/SOV/Portrait_Soviet_Georgiy_Zakharov.dds"
+			}
+		}
+		corps_commander={
+			traits={ career_officer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=1420
+		}
+	}
+	SOV_max_reyter={
+		name="Max Reyter"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_SOV_max_andreyevich.dds"
+			}
+			army={
+				large="gfx/leaders/SOV/Portrait_Soviet_Max_Andreyevich.dds"
+			}
+		}
+		corps_commander={
+			traits={ career_officer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	SOV_nikolai_berzarin={
+		name="Nikolai Berzarin"
+		portraits={
+			army={
+				small="GFX_Portrait_Soviet_Generic_land_1_small"
+			}
+			army={
+				large="GFX_Portrait_Soviet_Generic_land_1"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	SOV_alexander_gorbatov={
+		name="Alexander Gorbatov"
+		portraits={
+			army={
+				small="GFX_Portrait_Soviet_Generic_land_1_small"
+			}
+			army={
+				large="GFX_Portrait_Soviet_Generic_land_1"
+			}
+		}
+		corps_commander={
+			traits={ career_officer cavalry_officer }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	SOV_andrei_grechko={
+		name="Andrei Grechko"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_SOV_andrei_antonovich_grechko.dds"
+			}
+			army={
+				large="gfx/leaders/SOV/Portrait_Soviet_Andrei_Antonovich_Grechko.dds"
+			}
+		}
+		corps_commander={
+			traits={ cavalry_officer }
+			skill=3
+			attack_skill=1
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	SOV_vasily_sokolovsky={
+		name="Vasily Sokolovsky"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/SOV/r56_portrait_SOV_Vasily_Danilovich_Sokolovsky.dds"
+			}
+		}
+		corps_commander={
+			traits={ career_officer winter_specialist }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	SOV_vasily_chuikov={
+		name="Vasily Chuikov"
+		portraits={
+			army={
+				small="GFX_Portrait_Soviet_Generic_land_1_small"
+			}
+			army={
+				large="GFX_Portrait_Soviet_Generic_land_1"
+			}
+		}
+		corps_commander={
+			traits={ brilliant_strategist career_officer lucky }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	SOV_nikolay_krylov={
+		name="Nikolay Krylov"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/SOV/r56_portrait_SOV_Nikolay_Krylov.dds"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	SOV_pavel_batov={
+		name="Pavel Batov"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/SOV/r56_portrait_SOV_Pavel_Batov.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	SOV_vasily_gordov={
+		name="Vasily Gordov"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_SOV_generic_land_1.dds"
+			}
+			army={
+				large="gfx/leaders/SOV/Portrait_Soviet_Generic_land_1.dds"
+			}
+		}
+		corps_commander={
+			traits={ old_guard }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	SOV_mikhail_shumilov={
+		name="Mikhail Shumilov"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_SOV_generic_land_4.dds"
+			}
+			army={
+				large="gfx/leaders/SOV/Portrait_Soviet_Generic_land_4.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	SOV_ivan_maslennikov={
+		name="Ivan Maslennikov"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_SOV_generic_land_5.dds"
+			}
+			army={
+				large="gfx/leaders/SOV/Portrait_Soviet_Generic_land_5.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	SOV_filipp_oktyabrskiy={
+		name="Filipp Oktyabrskiy"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_SOV_filipp_oktyabrsky.dds"
+			}
+			army={
+				large="gfx/leaders/SOV/Portrait_Soviet_Filipp_Oktyabrsky.dds"
+			}
+		}
+		navy_leader={
+			traits={ ironside ground_pounder }
+			skill=2
+			attack_skill=3
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	SOV_arseniy_golovko={
+		name="Arseniy Golovko"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/SOV/Portrait_Soviet_Arseniy_Golovko.dds"
+			}
+		}
+		navy_leader={
+			traits={ spotter arctic_water_expert }
+			skill=4
+			attack_skill=3
+			defense_skill=4
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=409
+		}
+	}
+}

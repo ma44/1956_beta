@@ -1,0 +1,105 @@
+characters={
+	TNG_ma_hushan={
+		name="Ma Hushan"
+		portraits={
+			civilian={
+				large="gfx/leaders/TNG/r56_TNG_Ma_Hushan.dds"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			traits={ warlords }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	TNG_mahmut_muhiti={
+		name="Mahmut Muhiti"
+		portraits={
+			civilian={
+				large="gfx/leaders/TNG/r56_TNG_Mahmut_Muhiti.dds"
+			}
+		}
+		field_marshal={
+			traits={ trait_cautious cavalry_officer }
+			skill=3
+			attack_skill=3
+			defense_skill=1
+			planning_skill=4
+			logistics_skill=3
+			legacy_id=-1
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	TNG_khoja_niyaz={
+		name="Khoja Niyaz"
+		portraits={
+			civilian={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
+			}
+		}
+		country_leader={
+			ideology=oligarchic_democracy
+			expire="1953.3.1.1"
+			id=-1
+		}
+	}
+	TNG_pai_tzuli={
+		name="Pai Tzu-li"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_asia_generic_land_5.dds"
+			}
+			army={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_land_5.dds"
+			}
+		}
+		corps_commander={
+			traits={ cavalry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	TNG_ma_julung={
+		name="Ma Ju-Lung"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_asia_generic_land_3.dds"
+			}
+			army={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
+			}
+		}
+		corps_commander={
+			traits={ cavalry_officer }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	TNG_ma_dong={
+		name="Ma Dong"
+		portraits={
+			civilian={
+				large="gfx/leaders/r56_generic/r56_portrait_generic_politician_asia_1_communism.dds"
+			}
+		}
+		country_leader={
+			ideology=leninism
+			traits={ compassionate_gentleman ideological_groupie }
+			expire="1942.1.1.12"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,157 @@
+characters={
+	PHI_manuel_luis_quezón={
+		name="Manuel Luis Quezón"
+		portraits={
+			civilian={
+				large="gfx/leaders/PHI/Portrait_Philippines_Manuel_Luis_Quezon.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_MANUEL_LUIS_QUEZON_DESC"
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	PHI_emilio_aguinaldo={
+		name="Emilio Aguinaldo"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_south_america_generic_land_1.dds"
+			}
+			army={
+				large="gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_engineer }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	PHI_andrés_roxas_soriano={
+		name="Andrés Roxas Soriano"
+		portraits={
+			civilian={
+				large="gfx/leaders/PHI/r56_portrait_PHI_Andres_Roxas_Soriano.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_ANDRES_ROXAS_SORIANO_DESC"
+			ideology=falangism
+			traits={ captain_of_industry }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	PHI_crisanto_evangelista={
+		name="Crisanto Evangelista"
+		portraits={
+			civilian={
+				large="gfx/leaders/PHI/r56_portrait_Philippines_Crisanto_Evangelista.dds"
+			}
+		}
+		country_leader={
+			ideology=leninism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	PHI_paulino_santo={
+		name="Paulino Santo"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/r56_generic/r56_portrait_generic_land_south_america_camilo_alonso_vega.dds"
+			}
+		}
+		field_marshal={
+			traits={ organisational_leader }
+			skill=4
+			attack_skill=3
+			defense_skill=3
+			planning_skill=5
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	PHI_mateo_capinpin={
+		name="Mateo Capinpin"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/r56_generic/r56_portrait_generic_land_south_america_Bartolome_Blanche.dds"
+			}
+		}
+		corps_commander={
+			traits={ jungle_rat }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	PHI_artemio_ricarte={
+		name="Artemio Ricarte"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_south_america_generic_land_2.dds"
+			}
+			army={
+				large="gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
+			}
+		}
+		corps_commander={
+			traits={ armor_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	PHI_enrique_l._jurado={
+		name="Enrique L. Jurado"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/r56_generic/r56_portrait_generic_admiral_south_america_1.dds"
+			}
+		}
+		navy_leader={
+			traits={ blockade_runner spotter }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	PHI_royette_mabini={
+		name="Royette Mabini"
+		portraits={
+			civilian={
+				large="gfx/leaders/r56_generic/r56_portrait_generic_politician_asia_1_fascism.dds"
+			}
+		}
+		country_leader={
+			ideology=centrism
+			expire="1943.1.1.12"
+			id=-1
+		}
+	}
+}

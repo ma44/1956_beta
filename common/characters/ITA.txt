@@ -1,0 +1,540 @@
+characters={
+	ITA_benito_mussolini={
+		name="Benito Mussolini"
+		portraits={
+			civilian={
+				large="gfx/leaders/ITA/r56_portrait_ITA_Bennito_Mussolini.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_BENITO_MUSSOLINI_DESC"
+			ideology=fascism_ideology
+			traits={ Duce r56_trait_opposed_to_communism }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	ITA_ferruccio_parri={
+		name="Ferruccio Parri"
+		portraits={
+			civilian={
+				large="GFX_portrait_italy_ferruccio_parri"
+			}
+		}
+		country_leader={
+			desc="POLITICS_BENITO_MUSSOLINI_DESC"
+			ideology=socialism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	ITA_victor_emmanuel_iii={
+		name="Victor Emmanuel III"
+		portraits={
+			civilian={
+				large="GFX_portrait_italy_victor_emmanuel_iii"
+			}
+		}
+		country_leader={
+			desc="POLITICS_VICTOR_EMMANUEL_III_DESC"
+			ideology=despotism
+			traits={ soldier_king }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	ITA_palmiro_togliatti={
+		name="Palmiro Togliatti"
+		portraits={
+			civilian={
+				large="GFX_portrait_ita_palmiro_togliatti"
+			}
+		}
+		country_leader={
+			desc="POLITICS_BENITO_MUSSOLINI_DESC"
+			ideology=marxism
+			traits={ r56_trait_anti_fascist comintern_workhorse }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	ITA_pietro_badoglio={
+		name="Pietro Badoglio"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_ITA_pietro_badoglio.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/portrait_italy_pietro_badoglio.dds"
+			}
+		}
+		field_marshal={
+			traits={ old_guard inflexible_strategist politically_connected defensive_doctrine }
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=690
+		}
+	}
+	ITA_emilio_de_bono={
+		name="Emilio De Bono"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_ITA_emilio_de_bono.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/portrait_italy_emilio_de_bono.dds"
+			}
+		}
+		field_marshal={
+			traits={ old_guard politically_connected defensive_doctrine }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=691
+		}
+	}
+	ITA_ugo_cavallero={
+		name="Ugo Cavallero"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_ITA_ugo_cavallero.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Italy_Ugo_Cavallero.dds"
+			}
+		}
+		corps_commander={
+			traits={ old_guard career_officer trait_cautious }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=692
+		}
+	}
+	ITA_giovanni_messe={
+		name="Giovanni Messe"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_ITA_giovanni_messe.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Italy_Giovanni_Messe.dds"
+			}
+		}
+		corps_commander={
+			traits={ career_officer armor_officer war_hero }
+			skill=4
+			attack_skill=5
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=4
+			legacy_id=693
+		}
+	}
+	ITA_sebastiano_visconti_prasca={
+		name="Sebastiano Visconti Prasca"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_ITA_sebastiano_visconti_prasca.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Italy_Sebastiano_Visconti_Prasca.dds"
+			}
+		}
+		corps_commander={
+			traits={ inflexible_strategist career_officer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=695
+		}
+	}
+	ITA_ubaldo_soddu={
+		name="Ubaldo Soddu"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_ITA_ubaldo_soddu.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Italy_Ubaldo_Soddu.dds"
+			}
+		}
+		corps_commander={
+			traits={ career_officer artillerist }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=697
+		}
+	}
+	ITA_italo_balbo={
+		name="Italo Balbo"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_ITA_italo_balbo.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/portrait_italy_italo_balbo.dds"
+			}
+		}
+		corps_commander={
+			traits={ career_officer air_force_ties politically_connected }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=6007
+		}
+	}
+	ITA_rodolfo_graziani={
+		name="Rodolfo Graziani"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_ITA_radolfo_graziani.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/portrait_italy_radolfo_graziani.dds"
+			}
+		}
+		field_marshal={
+			traits={ politically_connected offensive_doctrine }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=687
+		}
+	}
+	ITA_inigo_campioni={
+		name="Inigo Campioni"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_ITA_inigo_campioni.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Italy_Inigo_Campioni.dds"
+			}
+		}
+		navy_leader={
+			traits={ battleship_adherent superior_tactician spotter }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=685
+		}
+	}
+	ITA_alberto_da_zara={
+		name="Alberto Da Zara"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_ITA_alberto_da_zara.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Italy_Alberto_Da_Zara.dds"
+			}
+		}
+		navy_leader={
+			traits={ gentlemanly superior_tactician }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=684
+		}
+	}
+	ITA_giuseppe_fioravanzo={
+		name="Giuseppe Fioravanzo"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_ITA_giuseppe_fioravanzo.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Italy_Giuseppe_Fioravanzo.dds"
+			}
+		}
+		navy_leader={
+			traits={ aviation_enthusiast blockade_runner }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=683
+		}
+	}
+	ITA_carlo_bergamini={
+		name="Carlo Bergamini"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_ITA_carlo_bergamini.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Italy_Carlo_Bergamini.dds"
+			}
+		}
+		navy_leader={
+			traits={ gunnery_expert battleship_adherent ironside }
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=682
+		}
+	}
+	ITA_angelo_iachino={
+		name="Angelo Iachino"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_ITA_angelo_iachino.dds"
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Italy_Angelo_Iachino.dds"
+			}
+		}
+		navy_leader={
+			traits={ bold navy_career_officer superior_tactician spotter }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=680
+		}
+	}
+	ITA_domenico_cavagnari={
+		name="Domenico Cavagnari"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ITA/r56_portrait_ITA_Domenico_Cavagnari.dds"
+			}
+		}
+		navy_leader={
+			traits={ old_guard_navy seawolf superior_tactician }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=681
+		}
+	}
+	ITA_mario_roatta={
+		name="Mario Roatta"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ITA/r56_portrait_ITA_Mario_Roatta.dds"
+			}
+		}
+		corps_commander={
+			traits={ career_officer harsh_leader }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ITA_vittorio_ambrosio={
+		name="Vittorio Ambrosio"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ITA/r56_portrait_ITA_Vittorio_Ambrosio.dds"
+			}
+		}
+		corps_commander={
+			traits={ career_officer cavalry_officer }
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	ITA_alfredo_guzzoni={
+		name="Alfredo Guzzoni"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ITA/r56_portrait_ITA_Alfredo_Guzzoni.dds"
+			}
+		}
+		field_marshal={
+			traits={ war_hero defensive_doctrine }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=686
+		}
+	}
+	ITA_ettore_bastico={
+		name="Ettore Bastico"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ITA/r56_portrait_ITA_Ettore_Bastico.dds"
+			}
+		}
+		corps_commander={
+			traits={ inflexible_strategist decided_planner politically_connected }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=694
+		}
+	}
+	ITA_giulio_martinat={
+		name="Giulio Martinat"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ITA/r56_portrait_ITA_Giulio_Martinat.dds"
+			}
+		}
+		corps_commander={
+			traits={ winter_specialist trait_mountaineer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=696
+		}
+	}
+	ITA_alessandro_pirzio_biroli={
+		name="Alessandro Pirzio Biroli"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ITA/r56_protrait_ITA_Alessandro_Pirzio_Biroli.dds"
+			}
+		}
+		corps_commander={
+			traits={ politically_connected }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=698
+		}
+	}
+	ITA_italo_gariboldi={
+		name="Italo Gariboldi"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ITA/r56_portrait_ITA_Italo_Gariboldi.dds"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer politically_connected }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=699
+		}
+	}
+	ITA_attilio_terruzzi={
+		name="Attilio Terruzzi"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ITA/Portrait_Italy_Attilio_Teruzzi.dds"
+			}
+		}
+		corps_commander={
+			traits={ politically_connected }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=688
+		}
+	}
+	ITA_brunetto_brunetti={
+		name="Brunetto Brunetti"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ITA/r56_portrait_ITA_Brunetto_Brunetti.dds"
+			}
+		}
+		corps_commander={
+			traits={ old_guard trait_reckless war_hero desert_fox }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=689
+		}
+	}
+	ITA_annibale_bergonzoli={
+		name="Annibale Bergonzoli"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/ITA/r56_portrait_ITA_annibale_bergonzoli.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=6050
+		}
+	}
+}

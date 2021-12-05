@@ -1,0 +1,372 @@
+characters={
+	POL_Adam_Mohuczy={
+		name="Adam Mohuczy"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/POL/r56_portrait_POL_Adam_Mohuczy.dds"
+			}
+		}
+		navy_leader={
+			traits={ old_guard_navy seawolf lancer }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	POL_bolesław_wieniawa_długoszowski={
+		name="Bolesław Wieniawa- Długoszowski"
+		portraits={
+			civilian={
+				large="gfx/leaders/POL/r56_portrait_POL_Boleslaw_Wieniawa_Dlugoszowski.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_BOLESLAW_WIENIAWA_DLUGOSZOWSKI_DESC"
+			ideology=oligarchism
+			traits={ POL_charismatic_leader POL_Wieniawa_infamous_womanizer }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	POL_julian_leszczyńskileński={
+		name="Julian Leszczyński-Leński"
+		portraits={
+			civilian={
+				large="gfx/leaders/POL/r56_portrait_POL_Julian_Leszczynski_Lenski.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_JULIAN_LESZCZYNSKI_LENSKI_DESC"
+			ideology=stalinism
+			traits={ stalins_puppet }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	POL_juliusz_rómmel={
+		name="Juliusz Rómmel"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/POL/r56_portrait_POL_Juliusz_Rommel.dds"
+			}
+		}
+		field_marshal={
+			traits={ old_guard trait_cautious cavalry_officer war_hero cavalry_leader thorough_planner cavalry_expert }
+			skill=2
+			attack_skill=4
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=3129
+		}
+	}
+	POL_franciszek_kleeberg={
+		name="Franciszek Kleeberg"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/POL/r56_portrait_POL_Franciszek_Kleeberg.dds"
+			}
+		}
+		corps_commander={
+			traits={ career_officer trickster trait_engineer swamp_fox scavenger }
+			skill=4
+			attack_skill=3
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=3
+			legacy_id=3137
+		}
+	}
+	POL_wiktor_thommée={
+		name="Wiktor Thommée"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/POL/r56_portrait_POL_Wiktor_Thommee.dds"
+			}
+		}
+		corps_commander={
+			traits={ career_officer skilled_staffer }
+			skill=4
+			attack_skill=3
+			defense_skill=5
+			planning_skill=2
+			logistics_skill=4
+			legacy_id=3138
+		}
+	}
+	POL_stanisław_grzmotskotnicki={
+		name="Stanisław Grzmot-Skotnicki"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/POL/r56_portrait_POL_Stanislaw_Grzmot_Skotnicki.dds"
+			}
+		}
+		corps_commander={
+			traits={ cavalry_officer war_hero cavalry_leader cavalry_expert skirmisher }
+			skill=4
+			attack_skill=5
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=3139
+		}
+	}
+	POL_wilhelm_orlikrückemann={
+		name="Wilhelm Orlik-Rückemann"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/POL/r56_portrait_POL_Wilhelm_Orlik_Ruckemann.dds"
+			}
+		}
+		corps_commander={
+			traits={ career_officer armor_officer commando skirmisher }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=3140
+		}
+	}
+	POL_emil_krukowiczprzedrzymirski={
+		name="Emil Krukowicz-Przedrzymirski"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/POL/r56_portrait_POL_Emil_Krukowicz_Przedrzymirski.dds"
+			}
+		}
+		corps_commander={
+			traits={ inflexible_strategist organizer }
+			skill=3
+			attack_skill=1
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=3148
+		}
+	}
+	POL_michał_tokarzewskikaraszewicz={
+		name="Michał Tokarzewski-Karaszewicz"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/POL/r56_portrait_POL_Michal_Tokarzewski_Karaszewicz.dds"
+			}
+		}
+		corps_commander={
+			traits={ infantry_expert guerilla_fighter }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=3142
+		}
+	}
+	POL_walerian_czuma={
+		name="Walerian Czuma"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/POL/r56_portrait_POL_Walerian_Czuma.dds"
+			}
+		}
+		corps_commander={
+			traits={ urban_assault_specialist }
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=3143
+		}
+	}
+	POL_czesław_młotfijałkowski={
+		name="Czesław Młot-Fijałkowski"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/POL/r56_portrait_POL_Czeslaw_Mlot_Fijalkowski.dds"
+			}
+		}
+		corps_commander={
+			traits={ inflexible_strategist skirmisher }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=3144
+		}
+	}
+	POL_władysław_langner={
+		name="Władysław Langner"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/POL/r56_portrait_POL_Wladyslaw_Langner.dds"
+			}
+		}
+		corps_commander={
+			traits={ inflexible_strategist harsh_leader infantry_officer }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=3145
+		}
+	}
+	POL_franciszek_wład={
+		name="Franciszek Wład"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/POL/r56_portrait_POL_Franciszek_Wlad.dds"
+			}
+		}
+		corps_commander={
+			traits={ ambusher }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=3146
+		}
+	}
+	POL_mieczysław_borutaspiechowicz={
+		name="Mieczysław Boruta-Spiechowicz"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/POL/r56_portrait_POL_Mieczyslaw_Boruta_Spiechowicz_Portrait.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_mountaineer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=3147
+		}
+	}
+	POL_edmund_knollkownacki={
+		name="Edmund Knoll-Kownacki"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/POL/r56_portrait_POL_Edmund_Knoll_Kownacki.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_cautious artillerist }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=3149
+		}
+	}
+	POL_gustaw_orliczdreszer={
+		name="Gustaw Orlicz-Dreszer"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/POL/r56_portrait_POL_Gustaw_Orlicz_Dreszer.dds"
+			}
+		}
+		corps_commander={
+			traits={ media_personality cavalry_officer politically_connected naval_liason }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=3
+			legacy_id=3127
+		}
+	}
+	POL_kazimierz_fabrycy={
+		name="Kazimierz Fabrycy"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/POL/r56_portrait_POL_Kazimierz_Fabrycy.dds"
+			}
+		}
+		corps_commander={
+			traits={ politically_connected }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=3150
+		}
+	}
+	POL_stanisław_hryniewiecki={
+		name="Stanisław Hryniewiecki"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/POL/r56_portrait_POL_Stanislaw_Hryniewiecki.dds"
+			}
+		}
+		navy_leader={
+			traits={ naval_lineage blockade_runner }
+			skill=3
+			attack_skill=2
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+}

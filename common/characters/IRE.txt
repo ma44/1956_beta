@@ -1,0 +1,120 @@
+characters={
+	IRE_Éamon_de_valera={
+		name="Éamon de Valera"
+		portraits={
+			civilian={
+				large="gfx/leaders/IRE/r56_portrait_IRE_Eamon_De_Varela.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_ÉAMON_DE_VALERA_DESC"
+			ideology=conservatism
+			traits={ fierce_patriot }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	IRE_eoin_oduffy={
+		name="Eoin O'Duffy"
+		portraits={
+			civilian={
+				large="gfx/leaders/IRE/r56_portrait_IRE_Eoin_O_Duffy.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_EOIN_ODUFFY_DESC"
+			ideology=fascism_ideology
+			traits={ fierce_patriot }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	IRE_james_larkin={
+		name="James Larkin"
+		portraits={
+			civilian={
+				large="gfx/leaders/IRE/r56_portrait_IRE_James_Larkin.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_JAMES_LARKIN_DESC"
+			ideology=marxism
+			traits={ backroom_windbag }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	IRE_william_norton={
+		name="William Norton"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_JAMES_LARKIN_DESC"
+			ideology=centrism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	IRE_michael_costello={
+		name="Michael Costello"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_ENG_generic_land_4.dds"
+			}
+			army={
+				large="gfx/leaders/ENG/Portrait_Britain_Generic_land_4.dds"
+			}
+		}
+		corps_commander={
+			traits={ old_guard }
+			skill=3
+			attack_skill=2
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	IRE_daniel_mckenna={
+		name="Daniel McKenna"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/IRE/r56_portrait_IRE_Daniel_McKenna.dds"
+			}
+		}
+		field_marshal={
+			traits={ trait_cautious infantry_officer }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	IRE_hugo_macneill={
+		name="Hugo MacNeill"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_ENG_generic_land_2.dds"
+			}
+			army={
+				large="gfx/leaders/ENG/Portrait_Britain_Generic_land_2.dds"
+			}
+		}
+		corps_commander={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+}

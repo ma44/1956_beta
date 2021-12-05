@@ -1,0 +1,90 @@
+characters={
+	SIK_sheng_shicai={
+		name="Sheng Shicai"
+		portraits={
+			civilian={
+				large="gfx/leaders/SIK/r56_portrait_SIK_Sheng_Shicai.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_SHENG_SHICAI_DESC"
+			ideology=stalinism
+			traits={ warlords }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_SHENG_SHICAI_DESC"
+			ideology=despotism
+			traits={ warlords }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	SIK_chiang_yufen={
+		name="Chiang Yu-fen"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_asia_generic_land_3.dds"
+			}
+			army={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
+			}
+		}
+		corps_commander={
+			skill=3
+			attack_skill=4
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	SIK_liu_pin={
+		name="Liu Pin"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_asia_generic_land_4.dds"
+			}
+			army={
+				large="gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
+			}
+		}
+		corps_commander={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	SIK_yang_lü={
+		name="Yang Lü"
+		portraits={
+			civilian={
+				large="GFX_Portrait_Asia_Generic_2"
+			}
+		}
+		country_leader={
+			ideology=centrism_democratic
+			traits={ quartermaster_general captain_of_industry }
+			expire="1950.1.1.12"
+			id=-1
+		}
+	}
+	SIK_pan_ma={
+		name="Pan Ma"
+		portraits={
+			civilian={
+				large="gfx/leaders/r56_generic/r56_portrait_generic_politician_asia_1_fascism.dds"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			traits={ propaganda_bungler }
+			expire="1948.1.1.12"
+			id=-1
+		}
+	}
+}

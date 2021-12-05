@@ -1,0 +1,200 @@
+characters={
+	SAF_jan_smuts={
+		name="Jan Smuts"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAF/Portrait_SouthAfrica_Jan_Smuts.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_J_B_M_HERTZOG_DESC"
+			ideology=liberalism
+			traits={ rearmer headstrong }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	SAF_george_edwin_brink={
+		name="George Edwin Brink"
+		portraits={
+			army={
+				small="GFX_SAF_george_edwin_brink_small"
+			}
+			army={
+				large="GFX_SAF_george_edwin_brink"
+			}
+		}
+		corps_commander={
+			traits={ desert_fox }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=5600
+		}
+	}
+	SAF_guy_hallifax={
+		name="Guy Hallifax"
+		portraits={
+			army={
+				small="GFX_SAF_guy_halifax_small"
+			}
+			army={
+				large="GFX_SAF_guy_halifax"
+			}
+		}
+		navy_leader={
+			traits={ battleship_adherent }
+			skill=3
+			attack_skill=4
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	SAF_frederick_dean={
+		name="Frederick Dean"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_europe_generic_navy_2.dds"
+			}
+			army={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
+			}
+		}
+		navy_leader={
+			traits={ spotter }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	SAF_j._b._m._hertzog={
+		name="J. B. M. Hertzog"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAF/r56_portrait_SAF_jbm_hertzog.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_J_B_M_HERTZOG_DESC"
+			ideology=oligarchism
+			traits={ fascist_sympathies }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	SAF_d._f._malan={
+		name="D. F. Malan"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAF/r56_portrait_SAF_Daniel_Francois_Malan.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_DF_MALAN_DESC"
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	SAF_thabo_edwin_mofutsanyana={
+		name="Thabo Edwin Mofutsanyana"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAF/r56_portrait_SAF_Thabo_Edwin_Mufutsanyana.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_EDWIN_MOFUTSANYANNA_DESC"
+			ideology=leninism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	SAF_hendrik_klopper={
+		name="Hendrik Klopper"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/SAF/r56_portrait_SAF_Hendrik_Klopper.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_cautious }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=3
+			legacy_id=5601
+		}
+	}
+	SAF_isaac_pierre_de_villiers={
+		name="Isaac Pierre De Villiers"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/SAF/r56_portrait_SAF_Pierre_De_Villiers.dds"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	SAF_william_poole={
+		name="William Poole"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/SAF/r56_portrait_SAF_William_Poole.dds"
+			}
+		}
+		corps_commander={
+			traits={ armor_officer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	SAF_hermanus_botha={
+		name="Hermanus Botha"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/r56_generic/r56_portrait_commonwealth_generic_general_1.dds"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+}

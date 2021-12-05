@@ -1,0 +1,156 @@
+characters={
+	PRU_Óscar_benavides={
+		name="Óscar Benavides"
+		portraits={
+			civilian={
+				large="GFX_Portrait_peru_oscar_benavides"
+			}
+		}
+		country_leader={
+			desc="POLITICS_OSCAR_BENAVIDES_DESC"
+			ideology=despotism
+			traits={ nationalistic_tendencies army_connections r56_trait_opposed_to_communism }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	PRU_manuel_prado_ugarteche={
+		name="Manuel Prado Ugarteche"
+		portraits={
+			civilian={
+				large="gfx/leaders/PRU/r56_portrait_PRU_Manuel_Prado_Ugarteche.dds"
+			}
+		}
+		country_leader={
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	PRU_felipe_de_la_barra={
+		name="Felipe de la Barra"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/PRU/r56_portrait_PRU_Felipe_de_la_Barra.dds"
+			}
+		}
+		field_marshal={
+			traits={ organizer skilled_staffer }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	PRU_eudocio_revines_pérez={
+		name="Eudocio Revines Pérez"
+		portraits={
+			civilian={
+				large="gfx/leaders/PRU/r56_portrait_PRU_Eudocio_Revines_Pérez.dds"
+			}
+		}
+		country_leader={
+			ideology=leninism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	PRU_luis_alberto_flores={
+		name="Luis Alberto Flores"
+		portraits={
+			civilian={
+				large="gfx/leaders/PRU/r56_portrait_PRU_Luis_Alberto_Flores.dds"
+			}
+		}
+		country_leader={
+			ideology=falangism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	PRU_eloy_gaspar_ureta={
+		name="Eloy Gaspar Ureta"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/PRU/r56_portrait_PRU_Eloy_Gaspar_Ureta.dds"
+			}
+		}
+		corps_commander={
+			traits={ brilliant_strategist trait_mountaineer }
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	PRU_antonio_silva={
+		name="Antonio Silva"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_south_america_generic_land_1.dds"
+			}
+			army={
+				large="gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
+			}
+		}
+		corps_commander={
+			traits={ jungle_rat }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	PRU_roque_saldías_maninat={
+		name="Roque Saldías Maninat"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/r56_generic/r56_portrait_generic_admiral_GRE_2.dds"
+			}
+		}
+		navy_leader={
+			traits={ gentlemanly navy_career_officer fleet_protector }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	PRU_armando_figueroa_roggero={
+		name="Armando Figueroa Roggero"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/r56_generic/r56_portrait_generic_admiral_GRE_1.dds"
+			}
+		}
+		navy_leader={
+			traits={ navy_career_officer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+}

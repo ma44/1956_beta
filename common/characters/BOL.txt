@@ -1,0 +1,56 @@
+characters={
+	BOL_agustín_de_velasco={
+		name="Agustín de Velasco"
+		portraits={
+			civilian={
+				large="GFX_portrait_south_america_generic_9"
+			}
+		}
+		country_leader={
+			ideology=socialism
+			traits={ editor compassionate_gentleman }
+			expire="1946.1.1.12"
+			id=-1
+		}
+	}
+	BOL_severino_Ágreda={
+		name="Severino Ágreda"
+		portraits={
+			civilian={
+				large="GFX_Portrait_South_America_Generic_1"
+			}
+		}
+		country_leader={
+			ideology=marxism
+			traits={ war_industrialist_mck silent_mule }
+			expire="1948.1.1.12"
+			id=-1
+		}
+	}
+	BOL_francisco_altamirano={
+		name="Francisco Altamirano"
+		portraits={
+			civilian={
+				large="GFX_portrait_south_america_generic_8"
+			}
+		}
+		country_leader={
+			ideology=fascism_ideology
+			expire="1950.1.1.12"
+			id=-1
+		}
+	}
+	BOL_andrés_monje={
+		name="Andrés Monje"
+		portraits={
+			civilian={
+				large="GFX_portrait_south_america_generic_9"
+			}
+		}
+		country_leader={
+			ideology=moderatism
+			expire="1953.1.1.12"
+			id=-1
+		}
+	}
+}

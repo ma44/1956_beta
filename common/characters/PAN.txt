@@ -1,0 +1,120 @@
+characters={
+	PAN_harmodio_arias_madrid={
+		name="Harmodio Arias Madrid"
+		portraits={
+			civilian={
+				large="GFX_portrait_panama_harmodio_arias_madrid"
+			}
+		}
+		country_leader={
+			desc="POLITICS_HARMODIO_ARIAS_MADRID_DESC"
+			ideology=liberalism
+			traits={ nationalistic_tendencies }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	PAN_cristóbal_ladislao={
+		name="Cristóbal Ladislao"
+		portraits={
+			civilian={
+				large="gfx/leaders/PAN/r56_portrait_PAN_Cristobal_Ladislao.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_CRISTOBAL_LADISLAO_DESC"
+			ideology=marxism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	PAN_arnulfo_arias_madrid={
+		name="Arnulfo Arias Madrid"
+		portraits={
+			civilian={
+				large="gfx/leaders/PAN/r56_portrait_PAN_Arnulfo_Arias_Madrid.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_ARNULFO_ARIAS_MADRID_DESC"
+			ideology=rexism
+			traits={ anti_communist }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	PAN_enrique_a._jiménez={
+		name="Enrique A. Jiménez"
+		portraits={
+			civilian={
+				large="gfx/leaders/PAN/r56_portrait_PAN_Arnulfo_Arias_Madrid.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_ARNULFO_ARIAS_MADRID_DESC"
+			ideology=centrism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	PAN_nicanor_de_obarrio={
+		name="Nicanor de Obarrio"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/PAN/r56_portrait_PAN_Nicanor_de_Obarrio.dds"
+			}
+		}
+		corps_commander={
+			traits={ politically_connected }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	PAN_manuel_quintero={
+		name="Manuel Quintero"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/PAN/r56_portrait_PAN_Manuel_Quintero.dds"
+			}
+		}
+		corps_commander={
+			traits={ old_guard homeland_connoisseur }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	PAN_esteban_huertas={
+		name="Esteban Huertas"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/r56_generic/r56_portrait_commonwealth_generic_general_3.dds"
+			}
+		}
+		corps_commander={
+			traits={ brilliant_strategist trait_reckless }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+}

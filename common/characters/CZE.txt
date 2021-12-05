@@ -1,0 +1,260 @@
+characters={
+	CZE_klement_gottwald={
+		name="Klement Gottwald"
+		portraits={
+			civilian={
+				large="gfx/leaders/CZE/Portrait_Czech_Klement_Gottwald.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_KLEMENT_GOTTWALD_DESC"
+			ideology=stalinism
+			traits={ stalins_puppet }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	CZE_milan_hodža={
+		name="Milan Hodža"
+		portraits={
+			civilian={
+				large="gfx/leaders/CZE/r56_portrait_CZE_Milan_Hodza.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_MILAN_HODZA_DESC"
+			ideology=conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	CZE_radola_gajda={
+		name="Radola Gajda"
+		portraits={
+			civilian={
+				large="gfx/leaders/CZE/r56_portrait_CZE_Radola_Gajda.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_RADOLA_GAJDA_DESC"
+			ideology=fascism_ideology
+			traits={ dislikes_germany dictator }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	CZE_jiří_stříbrný={
+		name="Jiří Stříbrný"
+		portraits={
+			civilian={
+				large="gfx/leaders/r56_generic/r56_portrait_generic_politician_europe_5.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_MILAN_HODZA_DESC"
+			ideology=despotism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	CZE_vojtěch_luža={
+		name="Vojtěch Luža"
+		portraits={
+			army={
+				small="GFX_Portrait_czechoslovakia_vojtech_luza_small"
+			}
+			army={
+				large="GFX_Portrait_czechoslovakia_vojtech_luza"
+			}
+		}
+		field_marshal={
+			traits={ offensive_doctrine fast_planner }
+			skill=3
+			attack_skill=4
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	CZE_josef_Šnejdárek={
+		name="Josef Šnejdárek"
+		portraits={
+			army={
+				small="GFX_Portrait_czechoslovakia_josef_snejdarek_small"
+			}
+			army={
+				large="GFX_Portrait_czechoslovakia_josef_snejdarek"
+			}
+		}
+		field_marshal={
+			traits={ defensive_doctrine thorough_planner }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	CZE_ludvík_krejčí={
+		name="Ludvík Krejčí"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/CZE/Portrait_Czech_Ludvik_Krejci.dds"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer homeland_connoisseur war_hero }
+			skill=2
+			attack_skill=2
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	CZE_richard_tesařík={
+		name="Richard Tesařík"
+		portraits={
+			army={
+				small="GFX_Portrait_czechoslovakia_richard_tesarik_small"
+			}
+			army={
+				large="GFX_Portrait_czechoslovakia_richard_tesarik"
+			}
+		}
+		corps_commander={
+			traits={ armor_officer }
+			skill=2
+			attack_skill=4
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	CZE_sergej_vojcechovský={
+		name="Sergej Vojcechovský"
+		portraits={
+			army={
+				small="GFX_Portrait_czechoslovakia_sergej_vojcechovsky_small"
+			}
+			army={
+				large="GFX_Portrait_czechoslovakia_sergej_vojcechovsky"
+			}
+		}
+		corps_commander={
+			traits={ winter_specialist }
+			skill=3
+			attack_skill=4
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	CZE_bedrich_neumann={
+		name="Bedrich Neumann"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/CZE/r56_portrait_CZE_Bedrich_Neumann.dds"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	CZE_josef_zmek={
+		name="Josef Zmek"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/CZE/Portrait_Czech_Josef_Zmek.dds"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	CZE_lev_prchala={
+		name="Lev Prchala"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/CZE/Portrait_Czech_Lev_Prchala.dds"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer caring_leader }
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=5650
+		}
+	}
+	CZE_josef_votruba={
+		name="Josef Votruba"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/CZE/Portrait_Czech_Josef_Votruba.dds"
+			}
+		}
+		corps_commander={
+			traits={ harsh_leader }
+			skill=2
+			attack_skill=1
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	CZE_zdenko_hudeček={
+		name="Zdenko Hudeček"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_europe_generic_navy_1.dds"
+			}
+			army={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
+			}
+		}
+		navy_leader={
+			traits={ bold seawolf }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+}

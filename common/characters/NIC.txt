@@ -1,0 +1,87 @@
+characters={
+	NIC_juan_bautista_sacasa={
+		name="Juan Bautista Sacasa"
+		portraits={
+			civilian={
+				large="gfx/leaders/NIC/r56_portrait_NIC_Juan_Bautista_Sacasa.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_JUAN_BAUTISTA_SACASA_DESC"
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	NIC_anastasio_somoza_garcía={
+		name="Anastasio Somoza García"
+		portraits={
+			civilian={
+				large="GFX_portrait_nicaragua_portrait_anastasio_somoza_garcia"
+			}
+		}
+		field_marshal={
+			traits={ infantry_officer politically_connected }
+			skill=4
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=12000
+		}
+		country_leader={
+			desc="POLITICS_ANASTASIO_SOMOZA_GARCIA_DESC"
+			ideology=despotism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	NIC_luis_alberto_cabrales={
+		name="Luis Alberto Cabrales"
+		portraits={
+			civilian={
+				large="gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_JUAN_BAUTISTA_SACASA_DESC"
+			ideology=falangism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	NIC_dr._mario_flores_ortiz={
+		name="Dr. Mario Flores Ortiz"
+		portraits={
+			civilian={
+				large="gfx/leaders/NIC/r56_portrait_NIC_Dr._Mario_Flores_Ortiz.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_MARIO_ORTIZ_DESC"
+			ideology=stalinism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	NIC_francisco_parajón_montealegre={
+		name="Francisco Parajón Montealegre"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_europe_generic_land_5.dds"
+			}
+			army={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_reckless politically_connected }
+			skill=3
+			attack_skill=4
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+}

@@ -1,0 +1,178 @@
+characters={
+	FIN_aimo_aaltonen={
+		name="Aimo Aaltonen"
+		portraits={
+			civilian={
+				large="gfx/leaders/FIN/r56_portrait_FIN_aimo_aaltonen.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_AIMO_AALTONEN_DESC"
+			ideology=marxism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	FIN_vilho_annala={
+		name="Vilho Annala"
+		portraits={
+			civilian={
+				large="gfx/leaders/FIN/r56_portrait_FIN_vilho_annala.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_VILHO_ANNALA_DESC"
+			ideology=fascism_ideology
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	FIN_vilho_petter_nenonen={
+		name="Vilho Petter Nenonen"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/FIN/r56_portrait_FIN_nenonen.dds"
+			}
+		}
+		corps_commander={
+			traits={ artillerist homeland_connoisseur winter_specialist }
+			skill=3
+			attack_skill=2
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	FIN_pehr_evind_svinhufvud={
+		name="Pehr Evind Svinhufvud"
+		portraits={
+			civilian={
+				large="gfx/leaders/FIN/r56_portrait_FIN_PE_svinhufvud.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_PE_SVINHUFVUD_DESC"
+			ideology=liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	FIN_kyösti_kallio={
+		name="Kyösti Kallio"
+		portraits={
+			civilian={
+				large="gfx/leaders/FIN/r56_portrait_FIN_kyosti_kallio.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_KYÖSTI_KALLIO_DESC"
+			ideology=centrism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	FIN_erik_axel_heinrichs={
+		name="Erik Axel Heinrichs"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/FIN/r56_portrait_FIN_erik_axel_heinrichs.dds"
+			}
+		}
+		corps_commander={
+			traits={ homeland_connoisseur winter_specialist ranger }
+			skill=3
+			attack_skill=3
+			defense_skill=4
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	FIN_carl_gustaf_emil_mannerheim={
+		name="Carl Gustaf Emil Mannerheim"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_FIN_carl_mannerheim.dds"
+			}
+			army={
+				large="gfx/leaders/FIN/portrait_fin_carl_mannerheim.dds"
+			}
+		}
+		field_marshal={
+			traits={ inflexible_strategist trait_cautious war_hero trickster winter_specialist defensive_doctrine }
+			skill=5
+			attack_skill=3
+			defense_skill=6
+			planning_skill=4
+			logistics_skill=3
+			legacy_id=58
+		}
+	}
+	FIN_karl_lennart_oesch={
+		name="Karl Lennart Oesch"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/FIN/r56_portrait_FIN_Karl_Lennart_Oesch.dds"
+			}
+		}
+		corps_commander={
+			traits={ winter_specialist }
+			skill=4
+			attack_skill=2
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=4
+			legacy_id=-1
+		}
+	}
+	FIN_ruben_lagus={
+		name="Ruben Lagus"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/FIN/r56_portrait_FIN_Ruben_Lagus.dds"
+			}
+		}
+		corps_commander={
+			traits={ armor_officer winter_specialist }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	FIN_erkki_raappana={
+		name="Erkki Raappana"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/FIN/r56_portrait_FIN_Erkki_Raappana.dds"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer winter_specialist ranger }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+}
