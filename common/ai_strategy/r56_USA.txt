@@ -10,6 +10,55 @@
 # protect
 # influence
 
+# Let's just do a bit of civilian industry
+r56_USA_sleeping_giant = {
+	allowed = {
+		original_tag = USA
+	}
+	
+	enable = {
+		ROOT = {
+			AND = {
+				NOT = { has_completed_focus = USA_the_giant_wakes }
+				NOT = { has_war = yes}
+			}
+		}
+	}
+
+	ai_strategy = {
+		type = added_military_to_civilian_factory_ratio
+		value = -40 # Should be 9 civs for every 1 mil?
+	}
+	abort_when_not_enabled = yes
+}
+
+r56_USA_the_giant_wakes = {
+	allowed = {
+		original_tag = USA
+	}
+	
+	enable = {
+		ROOT = {
+			OR = {
+				has_completed_focus = USA_the_giant_wakes
+				has_war = yes
+			}
+		}
+	}
+
+	ai_strategy = {
+		# Play like vanilla German Reich where there's more militaries than civilians rather than default 50:50
+		type = added_military_to_civilian_factory_ratio
+		value = 90
+	}
+	ai_strategy = {
+		#and let's make a bit more dockyards
+		type = dockyard_to_military_factory_ratio
+		value = 10
+	}
+	abort_when_not_enabled = yes
+}
+
 r56_USA_doesnt_want_to_be_in_the_allies_untill_nov_30_1941 = {
 	allowed = {
 		original_tag = USA

@@ -56,40 +56,48 @@ USA_historical_plan = {
 	}
 
 	ai_national_focuses = {
-		#1936/37
+		#Time ranges dependent on if "priority" focuses are taken or not
+		#Historical focuses should still be done around "historical" times
+		#Essential focus, always try to do this
+		USA_the_giant_wakes
 		USA_continue_the_new_deal
 		USA_wpa
-		USA_war_department
-		USA_maritime_commission
-		USA_air_war_plans_division
-		USA_war_plans_division
 		USA_agricultural_adjustment_act
 		USA_neutrality_act
-		USA_fair_labour_standards_act
+		USA_war_department
+		USA_maritime_commission
 		#1937
-		USA_strategic_bombing
-		USA_intervention_in_asia
-		USA_war_plan_orange
-		#1938
-		USA_escort_fighters
 		USA_arsenal_of_democracy
+		USA_fair_labour_standards_act
 		USA_scientist_haven
+		USA_war_plans_division
 		USA_intervention_in_europe
-		#1939
+		USA_intervention_in_asia
+		#1938
+		USA_war_plan_orange
+		USA_federal_housing_act
+		# Priority focuses if they're available
 		USA_military_construction
 		USA_USACE_projects
-		USA_federal_housing_act
-		USA_manhattan_project
-		USA_the_giant_wakes
-		USA_mobilize_the_railways
-		#1940
+		USA_wartime_industry
 		USA_mobilize_the_national_guard
 		USA_war_plan_black
-		USA_military_construction
+		USA_war_plan_yellow
+		USA_war_plan_red
+		USA_war_plan_ruby
+		#1939 - close to 1940 depending on war support
+		USA_war_plan_white
+		USA_war_plan_gold
+		# By this point USA should already have enough focuses done for 1940-1941 because of reaching > 30% war support
+		#1940
 		USA_two_ocean_navy_act
 		USA_selective_training_act
 		USA_destroyers_for_bases
 		#1941
+		USA_manhattan_project
+		USA_mobilize_the_railways
+		USA_air_war_plans_division
+		USA_escort_fighters
 		USA_fund_the_navy
 		USA_cash_and_carry
 		USA_lend_lease_act
@@ -97,8 +105,8 @@ USA_historical_plan = {
 		USA_office_of_scientific_research_and_development
 		USA_build_the_pentagon
 		USA_louisiana_maneuvers
-		USA_support_rock_island
 		#1942
+		USA_support_rock_island
 		USA_tank_experiments
 		USA_tank_destroyer_doctrine
 		USA_bureau_of_ships
@@ -108,7 +116,6 @@ USA_historical_plan = {
 		USA_the_worlds_loco_works
 		#1943
 		USA_combined_bomber_offensive
-		USA_wartime_industry
 		USA_army_of_the_united_states
 		USA_womens_armed_service_integration_act
 		USA_first_special_service_force
